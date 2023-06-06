@@ -15,9 +15,7 @@ public class NumbersMain {
 
         // 2. Generate a random number between 0 and 100. (Try the same between 10 and 100)
         // Formula: Math.floor(Math.random() * (max - min + 1) + min)
-//        System.out.println("Random number between 0 and 100: " + Math.floor(Math.random() * 101));
         System.out.println("\nRandom number between 0 and 100: " + (int)(Math.random() * 101));
-//        System.out.println("Random number between 10 and 100: " + Math.floor(Math.random() * (100 - 10 + 1) + 10));
         System.out.println("Random number between 10 and 100: " + (int)(Math.random() * (100 - 10 + 1) + 10));
 
         // 3. Check if a number is prime.
