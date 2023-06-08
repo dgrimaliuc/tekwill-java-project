@@ -17,7 +17,7 @@ public class StringsMain {
         System.out.println("> The string in uppercase: " + string.toUpperCase());
 
         // 3. Check if a string contains a specific substring.
-        if (string.contains("java") || string.contains("JAVA")){
+        if (string.toLowerCase().contains("java")){
             System.out.println("> The 'java' substring was found." );
         } else {
             System.out.println("> The 'java' substring was not found." );

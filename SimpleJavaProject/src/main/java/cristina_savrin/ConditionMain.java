@@ -34,14 +34,21 @@ public class ConditionMain {
         System.out.print("\nEnter a score: ");
         int score = scanner2.nextInt();
 
-        if (score > 90) {
-            System.out.println("Your grade: A");
-        } else if (score > 80) {
-            System.out.println("Your grade: B");
-        } else if (score > 70) {
-            System.out.println("Your grade: C");
-        } else {
-            System.out.println("Your grade: D");
+        switch (score/10)
+        {
+            case 10:
+            case 9:
+                System.out.println("Your grade: A");
+                break;
+            case 8:
+                System.out.println("Your grade: B");
+                break;
+            case 7:
+                System.out.println("Your grade: C");
+                break;
+            default:
+                System.out.println("Your grade: D");
+                break;
         }
     }
 }
