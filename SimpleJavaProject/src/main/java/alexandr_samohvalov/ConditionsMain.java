@@ -13,7 +13,7 @@ public class ConditionsMain {
             System.out.println("Number is negative");
         }else {
             System.out.println("Number is equal to zero");
-        };
+        }
     }
 }
 
