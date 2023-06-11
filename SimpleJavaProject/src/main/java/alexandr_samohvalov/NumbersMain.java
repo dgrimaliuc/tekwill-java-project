@@ -27,7 +27,7 @@ public class NumbersMain {
     }
 
     // Calculate the average of three numbers.
-    public static void main(String[] args) {
+    public static void main11111(String[] args) {
         int a = 3;
         int b = 6;
         int c = 9;
@@ -38,7 +38,7 @@ public class NumbersMain {
     }
 
     // Find the maximum of 4 numbers.
-    public static void maasffasfasfgdhgdhn(String[] args) {
+    public static void main(String[] args) {
         int a = 1;
         int b = 2;
         int c = 3;
