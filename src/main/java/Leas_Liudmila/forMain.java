@@ -1,4 +1,4 @@
-package SimpleJavaProject.src.main.java.Leas_Liudmila;
+package src.main.java.Leas_Liudmila;
 
 import java.util.Scanner;
 
@@ -16,7 +16,8 @@ public class forMain {
         int n = 10;
         for (int i = 1; i <= n; i++) {
             System.out.print(i + " ");
-        }System.out.println();
+        }
+        System.out.println();
     }
 
     public static void printNum2() {
