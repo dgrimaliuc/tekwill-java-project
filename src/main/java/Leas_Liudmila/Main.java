@@ -1,4 +1,4 @@
-package Leas_Liudmila;
+package src.main.java.Leas_Liudmila;
 
 public class Main {
     public static void main(String[] args) {
