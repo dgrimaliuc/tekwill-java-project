@@ -1,4 +1,4 @@
-package src.main.java.Leas_Liudmila;
+package Leas_Liudmila;
 
 
 public class whileDo {
