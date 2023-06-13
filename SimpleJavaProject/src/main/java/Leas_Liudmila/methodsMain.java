@@ -2,7 +2,8 @@ package SimpleJavaProject.src.main.java.Leas_Liudmila;
 
 public class methodsMain {
     public static void main(String[] args) {
-        System.out.println(maxValue(34, 85));
+        int myLocalValue = maxValue(34, 35);
+        System.out.println(myLocalValue);
         newFactorial(16);
         int[] sumOfElements = {10, 20, 30, 40, 50, 60, 70, 80};
         printSum(sumOfElements);
@@ -11,11 +12,7 @@ public class methodsMain {
 
     //1. Write a method that takes two integers as parameters and returns the maximum of the two.
     public static int maxValue(int x, int y) {
-        if (x > y) {
-            return x;
-        } else {
-            return y;
-        }
+        return Math.max(x, y);
     }
 
     //2. Implement a method that calculates the factorial of a given number.
@@ -41,7 +38,7 @@ public class methodsMain {
     //4. ( Optional hard task )
     // write a method which will accept 3 parameters -> sides of a triangle and will return Boolean value if this triangle can exist or not.
 
-    public static boolean triangle(int x, int y, int z) {
+    public static boolean triangle(double x, double y, double z) {
         return x + y > z && x + z > y && y + z > x;
     }
 }
