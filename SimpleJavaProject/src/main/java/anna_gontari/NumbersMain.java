@@ -29,7 +29,7 @@ public class NumbersMain {
 
         //Find the maximum of 4 numbers.
         int number1 = 25;
-        int number2 = 356;
+        int number2 = 347;
         int number3 = 2;
         int number4 = 42;
 
@@ -49,7 +49,7 @@ public class NumbersMain {
         int num1 = 34;
         int num2 = 9;
         int num3 = 14;
-        int num4 = 42;
+        int num4 = 41;
         int result = Math.max(num1, num2);
         int result2 = Math.max(num2, num3);
         int result3 = Math.max(result, result2);
