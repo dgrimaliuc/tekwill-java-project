@@ -1,6 +1,6 @@
 package anna_gontari;
 
-public class First_Java_Task_GA {
+public class Main {
     public static void main(String[] args) {
     int a = 5;
     int b = 20;
