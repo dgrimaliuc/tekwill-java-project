@@ -25,7 +25,7 @@ public class ConditionMain {
             System.out.println("This number is not prime");
         }
         //Determine the grade based on a given score.
-        int your_score = 73;
+        int your_score = 76;
         switch (your_score / 10) {
             case 10:
             case 9:
