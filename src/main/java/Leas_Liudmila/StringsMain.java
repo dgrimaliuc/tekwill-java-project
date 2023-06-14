@@ -1,4 +1,4 @@
-package SimpleJavaProject.src.main.java.Leas_Liudmila;
+package Leas_Liudmila;
 
 import java.util.Scanner;
 
