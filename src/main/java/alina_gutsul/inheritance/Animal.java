@@ -1,4 +1,4 @@
-package alina_gutsul.Inheritance;
+package alina_gutsul.inheritance;
 
 public class Animal {
     private String name;

@@ -1,4 +1,4 @@
-package alina_gutsul.Inheritance;
+package alina_gutsul.inheritance;
 
 public class Shape {
     private String color;

@@ -1,10 +1,10 @@
-package alina_gutsul.Collections;
+package alina_gutsul.collections;
 
-public class CountryCollection {
+public class Country {
     private String name;
     private String capital;
 
-    public CountryCollection(String name, String capital) {
+    public Country(String name, String capital) {
         this.name = name;
         this.capital = capital;
     }

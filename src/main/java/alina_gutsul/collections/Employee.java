@@ -1,10 +1,10 @@
-package alina_gutsul.Collections;
+package alina_gutsul.collections;
 
-public class EmployeeCollection {
+public class Employee {
     private String name;
     private int age;
 
-    public EmployeeCollection(String name, int age) {
+    public Employee(String name, int age) {
         this.name = name;
         this.age = age;
     }

@@ -1,4 +1,4 @@
-package alina_gutsul.Encapsulation;
+package alina_gutsul.encapsulation;
 
 public class Product {
     private int productId;

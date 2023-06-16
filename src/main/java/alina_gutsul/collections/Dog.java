@@ -1,10 +1,10 @@
-package alina_gutsul.Collections;
+package alina_gutsul.collections;
 
-public class DogCollection {
+public class Dog {
     private String name;
     private int age;
 
-    public DogCollection(String name, int age) {
+    public Dog(String name, int age) {
         this.name = name;
         this.age = age;
     }
