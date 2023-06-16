@@ -29,10 +29,10 @@ public class NumbersMain {
         int result3 = Math.max(result2 ,numberFour);
         System.out.println("Maximum of 4 numbers: " + result3);
 
-        NumbersMain AverageObj = new NumbersMain();
-        System.out.println("Average of three numbers:" + AverageObj.AverageOfThree(2,4,7));
+        NumbersMain averageObj = new NumbersMain();
+        System.out.println("Average of three numbers:" + averageObj.averageOfThree(2,4,7));
     }
-     Number AverageOfThree(int number1,int number2, int number3){
+     Number averageOfThree(int number1,int number2, int number3){
         int sum = number1 + number2 + number3;
         return sum/3;
     }
