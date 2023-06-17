@@ -1,6 +1,4 @@
-package Leas_Liudmila.Inheritance;
-
-import org.w3c.dom.ls.LSOutput;
+package Leas_Liudmila.inheritance;
 
 public class ShapeMain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Leas_Liudmila.Encapsulation;
+package Leas_Liudmila.encapsulation;
 
 // Implement a class called "Product" with private instance variables for product ID, name, and price. Write getter and setter methods for each variable.
 public class Product {

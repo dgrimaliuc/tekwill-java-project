@@ -1,6 +1,6 @@
-package Leas_Liudmila.Inheritance;
+package Leas_Liudmila.inheritance;
 
-import Leas_Liudmila.Encapsulation.Employee;
+import Leas_Liudmila.encapsulation.Employee;
 
 public class Manager extends Employee {
 

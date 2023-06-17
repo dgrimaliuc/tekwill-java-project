@@ -1,6 +1,4 @@
-package Leas_Liudmila.Inheritance;
-
-import java.util.ArrayList;
+package Leas_Liudmila.inheritance;
 
 public class Dog extends Animal {
     private String breed;

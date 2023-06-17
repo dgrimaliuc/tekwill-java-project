@@ -1,7 +1,4 @@
-package Leas_Liudmila.Encapsulation;
-
-import Leas_Liudmila.Inheritance.Dog;
-import Leas_Liudmila.Inheritance.Manager;
+package Leas_Liudmila.encapsulation;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package Leas_Liudmila.Encapsulation;
+package Leas_Liudmila.encapsulation;
 
 public class CarMain {
     public static void main(String[] args){

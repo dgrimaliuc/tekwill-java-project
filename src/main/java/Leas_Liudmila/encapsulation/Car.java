@@ -1,4 +1,4 @@
-package Leas_Liudmila.Encapsulation;
+package Leas_Liudmila.encapsulation;
 
 // Design a class called "Car" with private instance variables for make, model, and year. Provide getter and setter methods for each variable.
 public class Car {

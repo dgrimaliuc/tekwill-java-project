@@ -1,4 +1,4 @@
-package Leas_Liudmila.Inheritance;
+package Leas_Liudmila.inheritance;
 
 public class Rectangle extends Shape {
     private float width;

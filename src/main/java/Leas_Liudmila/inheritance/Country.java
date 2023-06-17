@@ -1,4 +1,4 @@
-package Leas_Liudmila.Inheritance;
+package Leas_Liudmila.inheritance;
 
 //Create a class Country with parameters inside, name and capital.
 // Create a Map that stores the abbreviation as keys and Country type as value.

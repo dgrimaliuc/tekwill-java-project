@@ -1,4 +1,4 @@
-package Leas_Liudmila.Encapsulation;
+package Leas_Liudmila.encapsulation;
 
 //1.Create a class named "Employee" with private instance variables for employee ID, name, and salary. Include appropriate getter and setter methods for each variable. (Encapsulation)
 
