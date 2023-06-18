@@ -19,9 +19,9 @@ public class Dog extends Animal {
         System.out.println("Information about dog: ");
         System.out.println("Breed: " + dogObj.breed);
         System.out.println("Weight: " + dogObj.weight);
-        System.out.println("Name: " + dogObj.name);
-        System.out.println("Age: " + dogObj.age);
-        System.out.println("Sound: " + dogObj.sound);
+        System.out.println("Name: " + dogObj.getName());
+        System.out.println("Age: " + dogObj.getAge());
+        System.out.println("Sound: " + dogObj.getSound());
 
         //Create List of Dog with some obejcts inside, print all objects info in a foreach loop.
         ArrayList<String> dog = new ArrayList<>();
