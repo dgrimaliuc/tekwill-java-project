@@ -21,7 +21,8 @@ public class WhileDoWhile {
         System.out.print("the even numbers from 1 to 20 are ");
         i = 0;
         while (i++ < 20)
-            if (i % 2 == 0) System.out.print(i + " ");
+            if (i % 2 == 0)
+                System.out.print(i + " ");
 
     }
 }

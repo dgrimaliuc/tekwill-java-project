@@ -26,8 +26,8 @@ public class For {
         System.out.println("factorial of a " + sc + " is " + f);
 
 //Print all numbers from 20 to 0 with step 2 ( 20, 18, 16, 14)
-        for (i = 21; i-- > 0; )
-            System.out.print(i-- + " ");
+        for (i = 20; i > 0;i-=2 )
+            System.out.print(i + " ");
 
 
     }
