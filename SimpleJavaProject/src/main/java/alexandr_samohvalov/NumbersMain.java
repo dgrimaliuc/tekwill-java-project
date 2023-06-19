@@ -4,13 +4,13 @@ import java.util.Random;
 
 public class NumbersMain {
     //Find the square root of a number
-    public static void ssaww(String[] args) {
+    public static void SquareRoot(String[] SquareRoot) {
         int a = 49;
         System.out.println(Math.sqrt(a));
     }
 
     // Generate a random number between 0 and 100.
-    public static void maaasfin(String[] args) {
+    public static void GenerateRanNum1(String[] GenerateRanNum1) {
         Random random = new Random();
         int randomNumber = random.nextInt(101);
 
@@ -19,7 +19,7 @@ public class NumbersMain {
 
 
     // Generate a random number between 10 and 100.
-    public static void maiaafqwn(String[] args) {
+    public static void GenerateRanNum2(String[] GenerateRanNum2) {
         Random random = new Random();
         int randomNumber = random.nextInt(91) + 10;
 
@@ -27,7 +27,7 @@ public class NumbersMain {
     }
 
     // Calculate the average of three numbers.
-    public static void main11111(String[] args) {
+    public static void CalculateAverageNum(String[] CalculateAverageNum) {
         int a = 3;
         int b = 6;
         int c = 9;
@@ -38,7 +38,7 @@ public class NumbersMain {
     }
 
     // Find the maximum of 4 numbers.
-    public static void main(String[] args) {
+    public static void main(String[] FindMaxNum) {
         int a = 1;
         int b = 2;
         int c = 3;
