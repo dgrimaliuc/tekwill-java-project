@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class NumbersMain {
     //Find the square root of a number
-    public static void SquareRoot(String[] SquareRoot) {
+    public static void main(String[] SquareRoot) {
         int a = 49;
         System.out.println(Math.sqrt(a));
     }
@@ -38,7 +38,7 @@ public class NumbersMain {
     }
 
     // Find the maximum of 4 numbers.
-    public static void main(String[] FindMaxNum) {
+    public static void FindMaxNum(String[] FindMaxNum) {
         int a = 1;
         int b = 2;
         int c = 3;
