@@ -3,12 +3,12 @@ package serghei_condrasov;
 import java.util.Scanner;
 public class ConditionMain {
     public static void main(String[] args) {
-        DefinitionNumber ();
-        DivisibleNumber();
-        DetermineGrade();
+        definitionNumber ();
+        divisibleNumber();
+        determineGrade();
     }
         //1. Check if a number is positive, negative, or zero.
-        public static void DefinitionNumber() {
+        public static void definitionNumber() {
         System.out.println("enter a number:");
         Scanner scanner = new Scanner(System.in);
             int num = scanner.nextInt();
@@ -21,7 +21,7 @@ public class ConditionMain {
             }
     }
         // 2. Check if a number is divisible by both 2 and 3.
-        public static void DivisibleNumber() {
+        public static void divisibleNumber() {
             System.out.println("enter a number:");
             Scanner scan = new Scanner(System.in);
             int number = scan.nextInt();
@@ -33,7 +33,7 @@ public class ConditionMain {
 
         }
         // 3. Determine the grade based on a given score.
-        public static void DetermineGrade() {
+        public static void determineGrade() {
             System.out.println("Enter your score:");
             Scanner sc = new Scanner(System.in);
             int score = sc.nextInt();
