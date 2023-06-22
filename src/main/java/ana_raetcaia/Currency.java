@@ -16,7 +16,7 @@ public enum Currency {
         this.exchange = exchange;
 
     }
-   // I was trying to write a programme that would make (an amount from one currency to another)
+   //I was trying to write a programme that would make (an amount from one currency to another)
    // but it failed and I wrote a programme that would just convert the currency.
     public double convertExchange(double amount){
      double convertExchange = amount * this.exchange;
