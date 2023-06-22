@@ -11,16 +11,14 @@ public class BreakContinue {
         while (true) {
             System.out.println("Enter your number :");
             int n = scan.nextInt();
-            if (!(n >= 0)) {
+            if (n < 0) {
                 break;
             }
         }
 
         // 2. Create a program which will print all number from 1 to 10 except 3 and 7 using continue keyword.
         for (int i = 1; i <= 10; i++) {
-            if (i == 3) {
-                continue;
-            } else if (i == 7) {
+            if ((i == 3) || (i == 7))  {
                 continue;
             }
             System.out.println(i + " ");

@@ -26,10 +26,7 @@ public class For {
         System.out.print("\n" + result);
 
         // 4. (Optional ) Print all numbers from 20 to 0 with step 2 ( 20, 18, 16, 14).
-        for (int f = 20; f > 0; f--) {
-            if (f % 2 == 0) {
-                System.out.print("\n" + f + " ");
-            }
-        }
+        for (int f = 20; f > 0; f -= 2)
+            System.out.print("\n" + f + " ");
     }
 }
