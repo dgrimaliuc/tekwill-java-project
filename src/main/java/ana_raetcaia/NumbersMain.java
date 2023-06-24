@@ -10,6 +10,7 @@ public class NumbersMain {
         double number = scanner.nextInt();
         System.out.println(Math.sqrt(number));
 
+        
         double num1 = Math.random();
         int rezult1 = (int)(num1 *100+0);
         System.out.println("Random number between 0 and 100:" + rezult1);
