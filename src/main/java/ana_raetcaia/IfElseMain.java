@@ -8,21 +8,10 @@ public class IfElseMain {
         System.out.println("Enter a num: ");
         int num = scanner.nextInt();
 
-        if (num > 0) {
-            System.out.println("Numbr is positive");
-            if (num>90){
-                System.out.println("A");
-            }
-            if (num>80){
-                System.out.println("B");
-            }
-            if (num>70){
-                System.out.println("C");
-            } else {
-                System.out.println("D");
-            }
+      if (num > 0) {
+          System.out.println("Numbr is positive");
 
-            if ((num % 2) == 0 && (num % 3) == 0) {
+            if ((num > 0) && (num % 2) == 0 && (num % 3) == 0) {
                 System.out.println("Number is divisible by both 2 and 3");
             }
         } else if (num < 0 ) {
@@ -33,6 +22,22 @@ public class IfElseMain {
             }
         } else {
             System.out.println("Number is zero");
+        }
+
+        switch (num/10){
+            case 10:
+            case 9:
+                System.out.println("A");
+                break;
+            case 8:
+                System.out.println("B");
+                break;
+            case 7:
+                System.out.println("C");
+                break;
+            default:
+                System.out.println("D");
+                break;
         }
     }
 }

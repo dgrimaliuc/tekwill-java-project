@@ -19,15 +19,9 @@ public class NumbersMain {
         System.out.println("Random number between 10 and 100:" + rezult2);
 
 
-        int numberOne = 4;
-        int numberTwo = 6;
-        int numberThree = 8;
-        int numberFour = 2;
+        int maxNumber = Math.max(Math.max(4,6),Math.max(8,2));
+        System.out.println("Maximum of 4 numbers: " + maxNumber );
 
-        int result1 = Math.max(numberOne,numberTwo);
-        int result2 = Math.max(result1,numberThree);
-        int result3 = Math.max(result2 ,numberFour);
-        System.out.println("Maximum of 4 numbers: " + result3);
 
         NumbersMain averageObj = new NumbersMain();
         System.out.println("Average of three numbers:" + averageObj.averageOfThree(2,4,7));
