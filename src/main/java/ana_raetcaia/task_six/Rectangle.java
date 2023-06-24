@@ -1,4 +1,4 @@
-package ana_raetcaia;
+package ana_raetcaia.task_six;
 
 public class Rectangle extends Shape {
     private int l;

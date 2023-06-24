@@ -1,6 +1,8 @@
 package ana_raetcaia;
 
-public class PartTimeEmployee extends Employee{
+import ana_raetcaia.task_six.Employee;
+
+public class PartTimeEmployee extends Employee {
     private double salaryForOneHour;
 
     private double salary;

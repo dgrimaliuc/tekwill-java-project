@@ -1,4 +1,4 @@
-package ana_raetcaia;
+package ana_raetcaia.task_six;
 
 public abstract class Shape {
     //1. Create an abstract class called "Shape" with an abstract method named "calculateArea".

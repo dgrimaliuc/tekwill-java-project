@@ -1,4 +1,4 @@
-package ana_raetcaia;
+package ana_raetcaia.task_six;
 
 public abstract class Employee {
     //3. Create an abstract class called "Employee" with an abstract method named "calculateSalary".

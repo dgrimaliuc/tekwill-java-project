@@ -1,6 +1,8 @@
-package ana_raetcaia;
+package ana_raetcaia.task_six;
 
-public class Car extends Vehicle{
+import ana_raetcaia.Vehicle;
+
+public class Car extends Vehicle {
     @Override
     public void startEngine() {
         System.out.println("Car engine start messages");
