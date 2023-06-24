@@ -9,7 +9,6 @@ public class NumbersMain {
         System.out.println("Enter a number: ");
         double number = scanner.nextInt();
         System.out.println(Math.sqrt(number));
-
         
         double num1 = Math.random();
         int rezult1 = (int)(num1 *100+0);
