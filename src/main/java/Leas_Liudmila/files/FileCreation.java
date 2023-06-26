@@ -8,6 +8,11 @@ import java.util.Scanner;
 //Write a program that creates a new text file with a given name. Write a welcome message in the file.
 public class FileCreation {
     public static void main(String[] args) {
+        newFileCreation();
+        readContent();
+    }
+
+    public static void newFileCreation() {
         try {
             File myObj = new File("files/new_file.txt");
 
@@ -31,10 +36,10 @@ public class FileCreation {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
 
-
-        //Write a program that reads the contents of a text file and displays it on the screen.
-
+    //Write a program that reads the contents of a text file and displays it on the screen.
+    public static void readContent() {
         try {
             File myObj = new File("files/new_file.txt");
             Scanner read = new Scanner(myObj);
@@ -48,10 +53,8 @@ public class FileCreation {
             e.printStackTrace();
         }
 
-
-
-
     }
-
 }
+
+
 

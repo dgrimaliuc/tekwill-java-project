@@ -8,6 +8,9 @@ import java.nio.file.Files;
 public class CountLines {
 
     public static void main (String[] args){
+        countLines();
+    }
+    public static void countLines(){
         try{
             File myFile = new File("files/new_file.txt");
             int countLines = Files.readAllLines(myFile.toPath()).size();
