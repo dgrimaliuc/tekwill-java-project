@@ -4,8 +4,6 @@ package anna_gontari.Inheritance;
 public class Rectangle extends Shape {
     int width;
     int height;
-
-
     public Rectangle (int width, int height) {
         super("black");
         this.height = height;
@@ -16,5 +14,4 @@ public class Rectangle extends Shape {
         this.height = height;
         this.width = width;
     }
-
 }

@@ -6,13 +6,10 @@ public class Employee {
     int ID;
     String name;
     int salary;
-
     public Employee(int ID, String name, int salary) {
         this.ID = ID;
         this.name = name;
         this.salary = salary;
     }
-
-
 }
 
