@@ -11,13 +11,13 @@ public class IfElseMain {
       if (num > 0) {
           System.out.println("Numbr is positive");
 
-            if ((num > 0) && (num % 2) == 0 && (num % 3) == 0) {
+            if (num % 2 == 0 && num % 3 == 0) {
                 System.out.println("Number is divisible by both 2 and 3");
             }
         } else if (num < 0 ) {
             System.out.println("Numder is negative");
 
-            if ((num % 2) == 0 && (num % 3) == 0) {
+            if (num % 2 == 0 && num % 3 == 0) {
                 System.out.println("Number is divisible by both 2 and 3");
             }
         } else {
