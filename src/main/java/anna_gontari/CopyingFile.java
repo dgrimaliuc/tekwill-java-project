@@ -11,6 +11,7 @@ public class CopyingFile {
     public static void main(String[] args) {
         copyFile();
     }
+
     public static void copyFile() {
         System.out.println("Please, enter file's path from which you want to copy information: ");
         Scanner scanner = new Scanner(System.in);
@@ -25,13 +26,9 @@ public class CopyingFile {
                 System.out.println("Requested file was found and information was successfully copied");
             } else if (path.mkdir() == false) {
                 Files.copy(Path.of("New Folder/copy Files/new Files" + input1), Path.of("New Folder/copy Files/new Files" + input2));
-                System.out.println("Requested file was found and information was successfully copied");
-            } else {
-                System.out.println("Sorry, new Files directory cannot be created");
-            }
+                System.out.println("Requested file was found and information was successfully copied");}
         } catch (IOException e) {
-            System.out.println(e.getMessage());
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
     }
 }
