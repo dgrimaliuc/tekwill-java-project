@@ -31,6 +31,4 @@ public class ArrayUtils {
         String max = num[num.length - 1];
         return max;
     }
-
-
 }

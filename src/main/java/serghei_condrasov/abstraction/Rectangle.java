@@ -7,6 +7,6 @@ package serghei_condrasov.abstraction;
 public class Rectangle extends Shape {
     @Override
     public void calculateArea() {
-        System.out.println("Rectangle = " + 5*2);
+        System.out.println("Rectangle = " + 5 * 2);
     }
 }

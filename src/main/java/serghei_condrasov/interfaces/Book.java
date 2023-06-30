@@ -4,7 +4,7 @@ package serghei_condrasov.interfaces;
 // and have their own unique fields and methods for printing.
 //For example, Book has name,author,price.
 
-public class Book implements Printable{
+public class Book implements Printable {
     private String nameBook;
     private String author;
     private double price;
