@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class TestingAnimal {
     public static void main(String[] args) {
-        Dog myDog = new Dog("Dachshund", "Sharik", 5, 5, "Gav Gav");
-        System.out.println(myDog.getBreed() + " : " + myDog.getName() + " : " + myDog.getAge() + " : " + myDog.getWeight() + " : " + myDog.getSound());
+        Dog myDog = new Dog("Sharik", 5, "Gav Gav",3 , "Dachshund");
+        System.out.println(myDog.getName() + " : " + myDog.getAge() + " : " + myDog.getSound() + " : " + myDog.getWeight() + " : " + myDog.getBreed());
 
         //Create List of Dog with some objects inside, print all objects info in a foreach loop.
 

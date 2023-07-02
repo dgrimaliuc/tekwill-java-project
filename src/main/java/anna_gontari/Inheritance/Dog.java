@@ -6,15 +6,10 @@ package anna_gontari.Inheritance;
 public class Dog extends Animal {
     private String breed;
     private int weight;
-    Dog(String breed, String name, int age, int weight, String sound) {
+    Dog(String name, int age, String sound, int weight, String breed) {
         super(name, age, sound);
         this.breed = breed;
         this.weight = weight;
-    }
-    public Dog(String name, int age, String sound, String breed, int weight) {
-        super(name, age, sound);
-        setBreed(breed);
-        setWeight(weight);
     }
     public String getBreed() {
         return breed;
@@ -22,7 +17,7 @@ public class Dog extends Animal {
     public void setBreed(String breed) {
         this.breed = breed;
     }
-    public float getWeight() {
+    public int getWeight() {
         return weight;
     }
     public void setWeight(int weight) {

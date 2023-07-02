@@ -5,22 +5,22 @@ public class Employee {
     //Create a class named "Employee" with private instance variables for employee ID, name, and salary.
     // Include appropriate getter and setter methods for each variable.
 
-    private int ID;
+    private int id;
     private String name;
     private int salary;
 
-    public Employee(int ID, String name, int salary) {
-        this.ID = ID;
+    public Employee(int id, String name, int salary) {
+        this.id = id;
         this.name = name;
         this.salary = salary;
     }
 
-    public int getID() {
-        return ID;
+    public int getid() {
+        return id;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setid(int id) {
+        this.id = id;
     }
 
     public String getName() {
