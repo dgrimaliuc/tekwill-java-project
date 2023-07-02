@@ -21,10 +21,10 @@ public class CopyingFile {
 
         File path = new File("New Folder/copy Files/new Files");
         try {
-            if (path.mkdir() == true) {
+            if (path.mkdir()) {
                 Files.copy(Path.of("New Folder/copy Files/new Files" + input1), Path.of("New Folder/copy Files/new Files" + input2));
                 System.out.println("Requested file was found and information was successfully copied");
-            } else if (path.mkdir() == false) {
+            } else if (path.mkdir()) {
                 Files.copy(Path.of("New Folder/copy Files/new Files" + input1), Path.of("New Folder/copy Files/new Files" + input2));
                 System.out.println("Requested file was found and information was successfully copied");}
         } catch (IOException e) {
