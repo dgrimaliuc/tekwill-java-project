@@ -4,7 +4,6 @@ public enum Currency {
     USD,
     EUR,
     GBP;
-
     public double convertAmount(double amount, Currency toConvert) {
         double[][] exchangeRates = {
                 {1.0, 0.92, 0.79},//USD

@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class MainCurrency {
     static Scanner userInput = new Scanner(System.in);
-
     public static void main(String[] args) {
         Currency initialCurrency;
         Currency toConvertCurrency;
