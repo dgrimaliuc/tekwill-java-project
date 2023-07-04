@@ -16,12 +16,7 @@ public class MainCurrency {
         System.out.println("Enter the currency to convert");
         toConvertCurrency = selectCurrency();
 
-        if(initialCurrency == Currency.MDL){
-            System.out.println(amount + " = " + initialCurrency.convertFromMDL(amount,toConvertCurrency));
-        }
-        else{
-            System.out.println(amount + " = " + Currency.MDL.convertFromMDL(initialCurrency.convertToMDL(amount),toConvertCurrency));
-        }
+            System.out.println(amount + " = " + initialCurrency.convertFromToMDL(amount,toConvertCurrency));
     }
 
     public static Currency selectCurrency() {

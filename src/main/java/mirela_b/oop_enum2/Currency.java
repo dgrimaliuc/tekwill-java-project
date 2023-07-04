@@ -12,11 +12,12 @@ public enum Currency {
         this.index = convertingIndex;
     }
 
-    public double convertFromMDL(double amount, Currency toConvert) {
-        return amount / toConvert.index;
-    }
-
-    public double convertToMDL(double amount){
-        return amount * index;
+    public double convertFromToMDL(double amount, Currency toConvert) {
+        if(toConvert == Currency.MDL){
+            return amount / toConvert.index;
+        }
+        else{
+            return (amount * index) / toConvert.index;
+        }
     }
 }
