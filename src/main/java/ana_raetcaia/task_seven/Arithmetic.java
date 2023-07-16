@@ -8,7 +8,7 @@ public class Arithmetic {
     int a ;
     int b ;
 
-    public int divideNumbers (int a, int b){
+    public static int divideNumbers (int a, int b){
         int rezult = a/b;
         return rezult;
     }
