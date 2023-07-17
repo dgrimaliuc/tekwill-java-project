@@ -1,4 +1,4 @@
-package src.main.java.alexei_drujinin;
+package alexei_drujinin;
 
 public class Main {
     public static void main(String[] args) {

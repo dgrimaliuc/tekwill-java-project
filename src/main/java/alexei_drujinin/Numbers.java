@@ -1,4 +1,4 @@
-package src.main.java.alexei_drujinin;
+package alexei_drujinin;
 
 public class Numbers {
     static int b = (int) (Math.random() * 100);
