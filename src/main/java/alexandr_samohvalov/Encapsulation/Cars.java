@@ -4,12 +4,12 @@ public class Cars {
     private String make ;
     private String model ;
     private int year ;
-        public String getMake () {
+    public String getMake () {
             return make;
         }
         public void setMake(String newMake) {
 
-            this.make = newMake;
+                this.make = newMake;
         }
     public String getModel () {
 
