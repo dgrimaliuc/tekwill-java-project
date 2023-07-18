@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ConditionsMain {
     // Check if a number is positive, negative, or zero.
-    public static void checkNumType(String[] CheckNumType) {
+    public static void checkNumType() {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         if (a > 0) {
@@ -17,7 +17,7 @@ public class ConditionsMain {
     }
 
     //Check if a number is divisible by both 2 and 3.
-    public static void numDivisibleBy2and3(String[] NumDivisibleBy2and3) {
+    public static void numDivisibleBy2and3() {
         System.out.println("Check if number is divided by 2 and 3");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce number");
@@ -38,7 +38,7 @@ public class ConditionsMain {
 
 // Determine the grade based on a given score.
 
-    public static void gradeBaseScore(String[] GradeBaseScore) {
+    public static void gradeBaseScore() {
         System.out.println("Determine the grade based on a given score");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce score");
