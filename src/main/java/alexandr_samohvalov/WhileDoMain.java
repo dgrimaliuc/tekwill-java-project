@@ -2,7 +2,7 @@ package alexandr_samohvalov;
 
 public class WhileDoMain {
     // Print numbers from 1 to 10 using a while-do loop.
-    public static void printNum(String[] printNum) {
+    public static void printNum() {
         int i = 0;
         while (i <= 10) {
             System.out.println(i);
@@ -11,7 +11,7 @@ public class WhileDoMain {
     }
 
     //Calculate the sum of numbers from 1 to 100 using a do-while loop.
-    public static void calSumOfNum(String[] calSumOfNum) {
+    public static void calSumOfNum() {
         int i = 1;
         int sum = 0;
         do {
@@ -22,7 +22,7 @@ public class WhileDoMain {
     }
 
     //Print the even numbers from 1 to 20 using a while-do loop.
-    public static void printEvenNumbers(String[] printEvenNumbers) {
+    public static void printEvenNumbers() {
         int i = 1;
         System.out.println("even numbers from 1 to 20:");
         while (i <= 20) {
