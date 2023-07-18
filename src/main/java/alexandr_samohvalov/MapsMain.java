@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class MapsMain {
     // Create a Map that stores the abbreviation as keys and String[] with country name and its capital. Add some pairs to the map and retrieve the capital of a specific country.
-    public static void abbreviation(String[] args) {
+    public static void abbreviation() {
         Map<String, String[]> countries = new HashMap<>();
         countries.put("MD", new String[]{"Moldova", "Chisinau"});
         countries.put("FR", new String[]{"France", "Paris"});

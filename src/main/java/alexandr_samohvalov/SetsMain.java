@@ -4,7 +4,7 @@ import java.util.*;
 
 public class SetsMain {
     //Create a Set of strings and add some names to it. Print the size of the Set and check if a specific name exists in the Set.
-    public static void names(String[] names) {
+    public static void names() {
 
         HashSet<String> Names = new HashSet<String>();
         Names.add("Alex");
