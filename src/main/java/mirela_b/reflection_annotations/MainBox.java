@@ -1,11 +1,15 @@
 package mirela_b.reflection_annotations;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 public class MainBox {
     public static void main(String[] args) {
         Box<String, Integer> box = new Box<>();
         Class<?> clazz = box.getClass();
-
+        Map<String,Integer> map = new HashMap<>();
+        //map.get(key)
         box.addPair("CARS", 2);
         box.addPair("HOUSES", 4);
         box.addPair("MONEY", 67);
@@ -13,7 +17,7 @@ public class MainBox {
         box.addPair("POOL", 56);
         box.addPair("CARS", 10);
 
-        box.getPair();
+        System.out.println(box.getPair("POOL"));
 
         try {
             String[] classAnnotation = clazz.getDeclaredAnnotation(FruitsAnnotation.class).value();

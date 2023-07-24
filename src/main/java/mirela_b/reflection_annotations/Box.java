@@ -1,4 +1,5 @@
 package mirela_b.reflection_annotations;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,18 +18,12 @@ public class Box<T, Y> {
         pairList.add(pair);
     }
 
-    public void getPair() {
-        int index = 0;
-        T value = null;
+    public Y getPair(T firstElement) {
         for (Pair<T, Y> pairs : pairList) {
-            if (index == 0) {
-                value = pairs.getFirstElement();
-            }
-            if (pairs.getFirstElement().equals(value)) {
-                System.out.println(pairs);
-                index++;
+            if (pairs.getFirstElement().equals(firstElement)) {
+                return pairs.getSecondElement();
             }
         }
-
+        return null;
     }
 }
