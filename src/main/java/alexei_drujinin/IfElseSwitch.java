@@ -1,4 +1,4 @@
-package src.main.java.alexei_drujinin;
+package alexei_drujinin;
 
 public class IfElseSwitch {
     static int a = (int) (Math.random() * 200) - 100;
