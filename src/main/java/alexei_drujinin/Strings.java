@@ -1,4 +1,4 @@
-package src.main.java.alexei_drujinin;
+package alexei_drujinin;
 
 import java.util.Scanner;
 
