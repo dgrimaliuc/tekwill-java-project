@@ -46,7 +46,6 @@ public class Main {
         String firstName = scanner.nextLine();
         System.out.println("Input Last Name");
         String lastName = scanner.nextLine();
-
         System.out.println("Your first name is: " + firstName + "; Your last name is: " + lastName);
 
 
