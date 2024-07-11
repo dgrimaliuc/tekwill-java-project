@@ -1,4 +1,4 @@
-package DenisGrimaliuc;
+package main.java.DenisGrimaliuc;
 
 public class Main {
     public static void main(String[] args) {
