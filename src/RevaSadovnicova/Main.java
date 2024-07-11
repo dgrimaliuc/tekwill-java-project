@@ -4,6 +4,39 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+//    int x=44;
+//    int y=4;
+//        System.out.println(x+y);
+//        System.out.println(x-y);
+//        System.out.println(x/y);
+//        System.out.println(x*y);
+
+//        int x=15;
+//        int y=18;
+//
+//        if(x>y){
+//            System.out.println(y);
+//        }
+//        else if (x<y){
+//            System.out.println(x);
+//        }
+//        else{
+//            System.out.println("null");
+//        }
+        Scanner sc= new Scanner(System.in);
+        var a = sc.nextInt();
+            if(a>=18){
+                System.out.println("Вы совершеннолетний");
+            }
+            else{
+                System.out.println("Вы не совершеннолетний");
+            }
+
+
+
+    }
+
+    }
        //int x=4;
        //int y=6;
         //if(x>y){
@@ -47,9 +80,6 @@ public class Main {
         //string = sc.nextLine();
         //System.out.println("name is : " + string.length());
 
-
-    }
-    }
 
 
 // {
