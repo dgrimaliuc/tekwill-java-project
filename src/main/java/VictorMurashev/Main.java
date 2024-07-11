@@ -1,6 +1,4 @@
-package main.java.VictorMurashev;
-
-import com.sun.source.util.DocTreePathScanner;
+package VictorMurashev;
 
 import java.util.Scanner;
 
@@ -38,7 +36,7 @@ public class Main {
             System.out.println("Number b = " + b + " is maximum");
         else {
             System.out.println("Number c = " + c + " is maximum");
-        }*/
+        }
 
 
         Scanner scanner = new Scanner(System.in);
@@ -46,10 +44,27 @@ public class Main {
         String firstName = scanner.nextLine();
         System.out.println("Input Last Name");
         String lastName = scanner.nextLine();
+        System.out.println("Your first name is: " + firstName + "; Your last name is: " + lastName);*/
 
+        // Homework Task 2
 
+        int var1 = 10; int var2 = 5;
 
-        System.out.println("Your first name is: " + firstName + "; Your last name is: " + lastName);
+        System.out.println("Sum of var1 and var2 is " + (var1 + var2));
+        System.out.println("Difference of var1 and var2 is " + (var1 - var2));
+        System.out.println("Composition of var1 and var2 is " + (var1 * var2));
+        System.out.println("Quotient  of var1 and var2 is " + (var1 / var2));
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Input Your age");
+        int age = Integer.parseInt(scanner.nextLine());
+
+        if (age < 18) {
+            System.out.println("You are minor");
+        } else {
+            System.out.println("You are adult");
+        }
+
 
 
     }
