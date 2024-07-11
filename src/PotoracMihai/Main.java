@@ -14,28 +14,28 @@ public class Main {
             System.out.println("Number is negative");
         } else {
             System.out.println("Number is zero");
-        }*/
-        /*
+        }
+
         int number = 11;
 
         if(number % 2 == 0) {
             System.out.println("Number is even");
         } else {
             System.out.println("Number is odd");
-        }*/
-        /*
+        }
+
         int num = 6;
          if(num % 2 == 0 && num % 3 == 0) {
             System.out.println("Number is divisible by 2 and 3");
          } else {
             System.out.println("Number is not divisible by 2 and 3");
-         }*/
-        /*
+         }
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your name: ");
         String name = sc.nextLine();
         System.out.println("Hello " + name + "!" + "Length of your name is: " + name.length());
-        */
+
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number for x: ");
@@ -88,9 +88,35 @@ public class Main {
                 break;
             default:
                 System.out.println("Number is not 0, 1 or 2");
+        }*/
+
+
+        //task 2
+        // 1. Создайте две переменные и найдите их сумму (+), разность (-), произведение (*) и частное (/) и выведете каждый результат на экран
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a number for number1: ");
+        int number1 = scanner.nextInt();
+        System.out.println("Enter a number for number2: ");
+        int number2 = scanner.nextInt();
+        System.out.println("Sum of number1 and number2 is: " + (number1 + number2));
+        System.out.println("Difference of number1 and number2 is: " + (number1 - number2));
+        System.out.println("Product of number1 and number2 is: " + (number1 * number2));
+        System.out.println("Quotient of number1 and number2 is: " + (number1 / number2));
+
+        // 2. Выведите на экран наименьшее из двух чисел
+        if (number1 < number2) {
+            System.out.println("Number1 is the smallest number");
+        } else {
+            System.out.println("Number2 is the smallest number");
         }
 
+        // 3.С помощью Scanner попросите пользователя ввести свой возраст, если число больше либо равно 18 выведите “Вы совершеннолетний” иначе “Вы не совершеннолетний”
+        System.out.println("Enter your age: ");
+        int age = scanner.nextInt();
+        if (age >= 18) {
+            System.out.println("Вы совершеннолетний!");
+        } else {
+            System.out.println("Вы не совершеннолетний!");
+        }
     }
-
-
 }
