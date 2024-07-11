@@ -1,7 +1,7 @@
 package AnastasiaGoncear;
-
+//С помощью Scanner попросите пользователя ввести свой возраст, если число больше либо равно 18 выведите “Вы совершеннолетний” иначе “Вы не совершеннолетний”
 import java.util.Scanner;
-
+//
 public class Age {
     public static void main(String[] args) {
         int age;

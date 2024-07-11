@@ -1,5 +1,5 @@
 package AnastasiaGoncear;
-
+//Создайте две переменные и найдите их сумму (+), разность (-), произведение (*) и частное (/) и выведете каждый результат на экран
 public class Arifmetics {
     public static void main(String[] args) {
         float number1=10;

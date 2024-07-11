@@ -1,5 +1,5 @@
 package AnastasiaGoncear;
-
+//Выведите на экран наименьшее из двух чисел
 public class LessNumber {
     public static void main(String[] args) {
         float number1=20;
