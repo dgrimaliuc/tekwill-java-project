@@ -23,14 +23,14 @@ public class Main {
 //        else{
 //            System.out.println("null");
 //        }
-        Scanner sc= new Scanner(System.in);
-        var a = sc.nextInt();
-            if(a>=18){
-                System.out.println("Вы совершеннолетний");
-            }
-            else{
-                System.out.println("Вы не совершеннолетний");
-            }
+//        Scanner sc= new Scanner(System.in);
+//        var a = sc.nextInt();
+//            if(a>=18){
+//                System.out.println("Вы совершеннолетний");
+//            }
+//            else{
+//                System.out.println("Вы не совершеннолетний");
+//            }
 
 
 
