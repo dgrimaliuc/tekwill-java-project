@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+
         // 1
         int x = 10, y = 11;
         System.out.println(x + y);
@@ -42,3 +43,4 @@ public class Main {
         System.out.println("Привет " + name + " " + surName);
     }
 }
+
