@@ -134,6 +134,7 @@ public class Main {
         String firstName = scanner.nextLine();
         System.out.println("Input Last Name");
         String lastName = scanner.nextLine();
+
         System.out.println("Your first name is: " + firstName + "; Your last name is: " + lastName);
 
         // Homework Task 2
@@ -154,6 +155,7 @@ public class Main {
         } else {
             System.out.println("You are adult");
         }*/
+
 
 
     }
