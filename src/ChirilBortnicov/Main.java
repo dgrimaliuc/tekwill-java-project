@@ -1,57 +1,34 @@
 package ChirilBortnicov;
 
+
 import java.util.Scanner;
 
 public class Main {
-    // public static void main(String[] args) {
-    //     int num1 = 5;
-    //     int num2 = 10;
-    //    int sum = num1 + num2;
-    //    System.out.println(sum);
-    // }
-    // public static void main(String[] args) {
-    //   int num1 = 30;
-    // int num2 = 20;
-    //   if (num1 == num2){
-    //       System.out.println("Numbers are equals");
-    //   } else {
-    //       System.out.println("Numbers not equals");
-    //   }
-    // }
-   // public static void main(String[] args) {
-   //    int num1 = 30;
-   //     if (num1 > 0) {
-   //         System.out.println("number is positive");
-   //     } else if (num1 < 0) {
-   //         System.out.println("number is negative");
-   //     } else if (num1 == 0) {
-   //         System.out.println("number is zero");
-   //     }
-   // }
- //   public static void main(String[] args) {
- //       int num1 = 10;
- //       int num2 = 20;
- //       int num3 = 30;
- //   if (num1 > num2 && num1 > num3){
- //       System.out.println("Num1 is biggest");
- //   } else if (num2 > num1 && num2 > num3){
- //       System.out.println("Num2 is biggest");
- //   } else {
- //       System.out.println("Num3 is biggest");
- //   }
-//  }
-//    public static void main(String[] args) {
-//        String FirstName;
-//        String LastName;
- //       Scanner sc = new Scanner(System.in);
-//        System.out.println("Enter FirstName: ");
-//        FirstName = sc.nextLine();
-//        System.out.println("Enter LastName: ");
-//        LastName = sc.nextLine();
-//        System.out.println("Your full name :" + FirstName +" "+ LastName);
-//
-//    }
-    public static void main(String[] args) {
-
-    }
+   /* public static void main(String[] args) {
+        int a = 22;
+        int b = 10;
+        System.out.println("Sum of numbers: " + (a + b));
+        System.out.println("Number difference: " + (a - b));
+        System.out.println("Product of numbers: " +(a * b));
+        System.out.println("Dividing numbers: " +(a / b));
+    } */
+  /* public static void main(String[] args) {
+       int a = 50;
+       double b = 49.9;
+       if (a < b){
+           System.out.println("First number is less");
+       } else {
+           System.out.println("Second number is less");
+       }
+   } */
+   /* public static void main(String[] args) {
+       System.out.println("Insert your age: ");
+       Scanner sc = new Scanner(System.in);
+       int age = sc.nextInt();
+       if (age >= 18){
+           System.out.println("Вы совершеннолетний");
+       } else {
+           System.out.println("Вы не совершеннолетний");
+       }
+   } */
 }
