@@ -1,57 +1,33 @@
 package ChirilBortnicov;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-    // public static void main(String[] args) {
-    //     int num1 = 5;
-    //     int num2 = 10;
-    //    int sum = num1 + num2;
-    //    System.out.println(sum);
-    // }
-    // public static void main(String[] args) {
-    //   int num1 = 30;
-    // int num2 = 20;
-    //   if (num1 == num2){
-    //       System.out.println("Numbers are equals");
-    //   } else {
-    //       System.out.println("Numbers not equals");
-    //   }
-    // }
-   // public static void main(String[] args) {
-   //    int num1 = 30;
-   //     if (num1 > 0) {
-   //         System.out.println("number is positive");
-   //     } else if (num1 < 0) {
-   //         System.out.println("number is negative");
-   //     } else if (num1 == 0) {
-   //         System.out.println("number is zero");
-   //     }
-   // }
- //   public static void main(String[] args) {
- //       int num1 = 10;
- //       int num2 = 20;
- //       int num3 = 30;
- //   if (num1 > num2 && num1 > num3){
- //       System.out.println("Num1 is biggest");
- //   } else if (num2 > num1 && num2 > num3){
- //       System.out.println("Num2 is biggest");
- //   } else {
- //       System.out.println("Num3 is biggest");
- //   }
-//  }
-//    public static void main(String[] args) {
-//        String FirstName;
-//        String LastName;
- //       Scanner sc = new Scanner(System.in);
-//        System.out.println("Enter FirstName: ");
-//        FirstName = sc.nextLine();
-//        System.out.println("Enter LastName: ");
-//        LastName = sc.nextLine();
-//        System.out.println("Your full name :" + FirstName +" "+ LastName);
-//
-//    }
+    /*
+    While
+Calculate the sum of numbers from 55 to 111 using a do-while loop.
+For
+Calculate the sum of numbers from 1 to 100 using a for loop.
+Arrays
+Create a program that finds and displays the average value of all elements in an array of floating-point numbers.
+     */
     public static void main(String[] args) {
+       /* int sum = 0;
+        int i = 55;
+        do {
+            sum += i;
+            i++;
+        } while (i <= 111);
+        System.out.println(sum); */
 
-    }
+        /*  int sum = 0;
+        for (int i = 1; i <= 100; i++){
+            sum += i;
+        }
+        System.out.println(sum); */
+        double[] AverageValue = new double[]{21.3, 42.3, 12.5, 54, 41.6, 22.8, 49.1, 53.7, 12.1, 60};
+        double sum = Arrays.stream(AverageValue).sum();
+        System.out.println(sum);
+        }
 }
