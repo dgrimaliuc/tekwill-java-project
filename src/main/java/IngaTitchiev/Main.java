@@ -4,33 +4,33 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int num1=36;
-        int num2=12;
-        int num3=34;
-        int sum,dif, prod;
-        float del;
-        //Создайте две переменные и найдите их
-        // сумму (+), разность (-), произведение (*) и частное (/) и выведете каждый результат на экран
-        sum=num1+num2;
-        dif=num1-num2;
-        prod=num1*num2;
-        del=num1/num2;
-        System.out.println("Sum= "+sum);
-        System.out.println("Difference= "+dif);
-        System.out.println("Product = "+prod);
-        System.out.println("Delenie= "+del);
-        //Выведите на экран наименьшее из двух чисел
-        if (num1<num2) System.out.println("Min= "+num1);
-        else System.out.println("Min= "+num2);
-        //С помощью Scanner попросите пользователя ввести свой возраст,
-        // если число больше либо равно 18 выведите “Вы совершеннолетний” иначе “Вы не совершеннолетний”
-        String age;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number(age): ");
-        age = sc.nextLine();
-        int number = Integer.parseInt(age);
-        if (number<18) System.out.println("you are a child");
-        else System.out.println("You are mature");
+        //While
+       // Calculate the sum of numbers from 55 to 111 using a do-while loop.
+        int count = 55;
+        int sum1 = 0;
+        do {
+            sum1 += count;
+            count++;
+        } while (count <= 111);
+             System.out.println("Sum 1 is: " + sum1);
+        //       For
+        //Calculate the sum of numbers from 1 to 100 using a for loop.
+        int sum2 = 0;
+        for (int i = 0; i < 100; i++) {
+            sum2 += count;
+                    }
+        System.out.println("Sum 2 is: " + sum2);
+          //      Arrays
+        //Create a program that finds and displays the average value of all elements
+        // in an array of floating-point numbers.
+        float[] arr = new float[]{1.7F, 2f, 3f, 4.8f, 5f, 6f, 7f, 8.4f, 5f, 6f, 7.3f, 8f};
+        float avg = 0;
+        float sum=0;
+        for (int i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+        }
+        avg=sum/arr.length;
+        System.out.println("The average value is: " + avg);
 
     }
 }
