@@ -1,57 +1,47 @@
 package ChirilBortnicov;
 
-import java.util.Scanner;
-
 public class Main {
-    // public static void main(String[] args) {
-    //     int num1 = 5;
-    //     int num2 = 10;
-    //    int sum = num1 + num2;
-    //    System.out.println(sum);
-    // }
-    // public static void main(String[] args) {
-    //   int num1 = 30;
-    // int num2 = 20;
-    //   if (num1 == num2){
-    //       System.out.println("Numbers are equals");
-    //   } else {
-    //       System.out.println("Numbers not equals");
-    //   }
-    // }
-   // public static void main(String[] args) {
-   //    int num1 = 30;
-   //     if (num1 > 0) {
-   //         System.out.println("number is positive");
-   //     } else if (num1 < 0) {
-   //         System.out.println("number is negative");
-   //     } else if (num1 == 0) {
-   //         System.out.println("number is zero");
-   //     }
-   // }
- //   public static void main(String[] args) {
- //       int num1 = 10;
- //       int num2 = 20;
- //       int num3 = 30;
- //   if (num1 > num2 && num1 > num3){
- //       System.out.println("Num1 is biggest");
- //   } else if (num2 > num1 && num2 > num3){
- //       System.out.println("Num2 is biggest");
- //   } else {
- //       System.out.println("Num3 is biggest");
- //   }
-//  }
-//    public static void main(String[] args) {
-//        String FirstName;
-//        String LastName;
- //       Scanner sc = new Scanner(System.in);
-//        System.out.println("Enter FirstName: ");
-//        FirstName = sc.nextLine();
-//        System.out.println("Enter LastName: ");
-//        LastName = sc.nextLine();
-//        System.out.println("Your full name :" + FirstName +" "+ LastName);
-//
-//    }
-    public static void main(String[] args) {
-
+    /* public static void main(String[] args) {
+    int count = 10;
+    while (count >= 0){
+    System.out.println(count); count -= 1; } } */
+    /*  public static void main(String[] args) {
+    int count = 0;
+    while (count <= 50){
+    System.out.println(count);
+     count++; } } */
+    /*  public static void main(String[] args) {
+     for (int i = 10; i >= 1; i--){
+      System.out.println(i); } } */
+      public static void main(String[] args) {
+          int sum = 0;
+     for (int i = 1; i <= 51; i++) sum += i;;{
+       {
+          System.out.println(sum);
+      }
+     }
     }
+    /* public static void main(String[] args) {
+    int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 5, 6, 7, 8};
+     int element = 8;
+     boolean found = false;
+     for (int i : arr) {
+     if (i == element) {
+     found = true;
+      break; }
+       }
+       if (found) {
+        System.out.println("Element exists in an array");
+         }
+          else { System.out.println("Element does not exist in an array");
+           }
+      } */
+
+    /* public static void main(String[] args) {
+               int[] arr = {1, 2, -3, 4, -5, 6, 7, 8, -5, 6, -7, 8};
+               int sum = 0;
+               for (int number : arr) {
+                   if (number > 0) {
+                       sum += number; }
+               } System.out.println("Sum of all positive elements in an array is: " + sum); } */
 }
