@@ -18,7 +18,7 @@ public class t2 {
         // 4. Частное
         double div = (double) a / b;
         System.out.println("Частное: " + div);
-        // 5. Найдите минимальное значение
+        // 5. Найдите минимальное значениеg
         if (a < b) {
             System.out.println("Минимальное значение: a ");
         } else {
