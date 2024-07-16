@@ -118,5 +118,7 @@ public class Main {
         } else {
             System.out.println("Вы не совершеннолетний!");
         }
+
+
     }
 }
