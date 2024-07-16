@@ -24,29 +24,27 @@ public class homework_20240716 {
         }
 
         // Task 2
-        // Creating a HashSet to store names
-        Set<String> names = new HashSet<>();
+        // Create a HashSet with some names
+        HashSet<String> namesSet = new HashSet<>();
+        namesSet.add("Ivan");
+        namesSet.add("Janna");
+        namesSet.add("Olga");
+        namesSet.add("Mikhail");
+        namesSet.add("Svetlana");
 
-        // Adding some names to the HashSet
-        names.add("Ion");
-        names.add("Janna");
-        names.add("Amelia");
-        names.add("Mikhail");
-        names.add("Alexandra");
+        // Check if specific names exist in the HashSet
+        ArrayList<String> namesToCheck = new ArrayList<>();
+        namesToCheck.add("Janna");
+        namesToCheck.add("Boris");
 
-        // Print the size of the HashSet
-        System.out.println("Size of the Set: " + names.size());
-
-        // Check if a specific name exists in the HashSet
-        String nameToCheck = "Janna";
-        //String nameToCheck = "Boris";
         System.out.println("==================\n Task 2 - HashSet with names \n ====================");
-        if (names.contains(nameToCheck)) {
-            System.out.println(nameToCheck + " exists in the Set.");
-        } else {
-            System.out.println(nameToCheck + " does not exist in the Set.");
+        for (String name : namesToCheck) {
+            if (namesSet.contains(name)) {
+                System.out.println(name + " exists in the Set.");
+            } else {
+                System.out.println(name + " does not exist in the Set.");
+            }
         }
-
         // Task 3 - Students with scores more than 90
 
         // Creating two HashMaps of student names and their scores
