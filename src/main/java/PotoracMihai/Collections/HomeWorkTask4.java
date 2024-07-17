@@ -2,6 +2,7 @@ package main.java.PotoracMihai.Collections;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 public class HomeWorkTask4 {
@@ -47,6 +48,36 @@ public class HomeWorkTask4 {
             System.out.println(key + " -> " + countryMap.get(key));
         }
 
+        //Given two Maps that contain student names as keys and their corresponding scores as values,
+        // write a program to find the students who scored higher than  90  and store their names and scores in a new Map.
 
+        // Create two Maps of student names and their scores
+        Map<String, Integer> studentScores1 = new HashMap<>();
+        studentScores1.put("Evelina", 85);
+        studentScores1.put("Bob", 92);
+        studentScores1.put("Charlie", 78);
+        studentScores1.put("David", 95);
+        Map<String, Integer> studentScores2 = new HashMap<>();
+        studentScores2.put("Eve", 89);
+        studentScores2.put("Frank", 81);
+        studentScores2.put("Alice", 91); // Duplicate name with different score
+        studentScores2.put("George", 87);
+
+        // Create a new Map to store the students who scored higher than 90
+        Map<String, Integer> highScorers = new HashMap<>();
+        for (String key : studentScores1.keySet()) {
+            if (studentScores1.get(key) > 90) {
+                highScorers.put(key, studentScores1.get(key));
+            }
+        }
+        for (String key : studentScores2.keySet()) {
+            if (studentScores2.get(key) > 90) {
+                highScorers.put(key, studentScores2.get(key));
+            }
+        }
+        for (String key : highScorers.keySet()) {
+            System.out.println(key + " -> " + highScorers.get(key));
+        }
+        
     }
 }
