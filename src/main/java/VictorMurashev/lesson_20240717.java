@@ -50,7 +50,6 @@ public class lesson_20240717 {
     }
 
     //Task 4
-
     public static int sumAll(Integer... numbers) {
         int sum = 0;
         for (int number : numbers) {
