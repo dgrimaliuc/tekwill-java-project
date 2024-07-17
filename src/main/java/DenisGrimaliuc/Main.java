@@ -1,9 +1,13 @@
-package main.java.DenisGrimaliuc;
+package DenisGrimaliuc;
 
 
 public class Main {
-    public static void main(String[] args) {
 
+    /*
+
+     */
+
+    public static void main(String[] args) {
 
 
     /*   While
@@ -19,6 +23,16 @@ public class Main {
         }
         System.out.println("sum = " + y);
 
+=======
+        HashMap<String, Integer> map = new HashMap<>();
+        var value = map.get("Denis");
+
+        if (value == null) {
+            System.out.println("Value is null");
+        } else {
+            System.out.println("Value is not null");
+        }
+>>>>>>> Stashed changes
     }
 }
 /*

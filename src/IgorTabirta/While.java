@@ -2,7 +2,7 @@ package IgorTabirta;
 
 import java.util.Scanner;
 
-public class t3 {
+public class While {
     public static void main(String[] args) {
         // Write a program that counts from 1 to 10 using a while loop.
         int count = 1;
