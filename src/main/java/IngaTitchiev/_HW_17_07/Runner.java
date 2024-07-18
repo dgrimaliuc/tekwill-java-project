@@ -4,7 +4,7 @@ public class Runner {
     public static void main(String[] args) {
         Animals cat = new Animals("Whiskers", "Cat", 2, "Meow");
         Animals dog = new Animals("Buddy", "Dog", 3, "Gav-Gav");
-        Animals cow = new Animals("Bessie", "Cow", 5, "Muuu");
+        Animals cow = new Animals("Bessie", "Cow", 4, "Muuu");
         System.out.println("Display info about first animal");
         cat.displayInfo();
         cat.makeSound();
@@ -25,7 +25,7 @@ public class Runner {
 
         System.out.println();
 
-        book.applyDiscount(10); // Applying a 10% discount
+        book.applyDiscount(15); // Applying a 10% discount
         book.displayDetails();
 
 

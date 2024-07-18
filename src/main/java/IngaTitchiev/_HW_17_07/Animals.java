@@ -20,7 +20,7 @@ public class Animals {
      public void displayInfo() {
         System.out.println("Name: " + name);
         System.out.println("Type: " + type);
-        System.out.println("Age: " + age);
+        System.out.println("Ages: " + age);
     }
 
 }
