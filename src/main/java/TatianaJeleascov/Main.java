@@ -21,6 +21,15 @@ public class Main {
         doWhileCycle();
         forCycle();
         arraysAvg();
+
+        Animal cat = new Animal("Whiskers", "cat", 5, "meow");
+        cat.displayInfo();
+        cat.makeSound();
+
+        
+        Book book1 = new Book("The Catcher in the Rye", "J.D. Salinger", 15.99, "9780316769488");
+        book1.displayDetails();
+        book1.applyDiscount(10);
     }
 
     private static void calculator(int numOne, int numTwo) {
