@@ -1,4 +1,4 @@
-package TatianaJeleascov;
+package main.java.TatianaJeleascov;
 
 public class Animal {
     private String name;
