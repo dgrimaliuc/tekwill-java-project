@@ -11,9 +11,9 @@ public class Main {
 
         Fruit(String name, String colors, int calories) {
             this.name = name;
-            this.name = author;
-            this.year = year;
-            this.price = price;
+//            this.name = author;
+//            this.year = year;
+//            this.price = price;
         }
     }
 }
