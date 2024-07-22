@@ -5,24 +5,14 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+        numbers.add(4);
+        for (int i = numbers.size() - 1; i >= 0; i = i - 1) {
+            System.out.println(numbers.get(i));
 
-        ArrayList<String> cars = new ArrayList<>();
-        cars.add("Volvo");
-        cars.add("BMW");
-        cars.add("Ford");
-        cars.add("Mazda");
-        cars.set(0, "Toyota");
-
-        System.out.println(cars);
-        cars.add(0, "Mers");
-        System.out.println(cars);
-        cars.remove(0);
-        System.out.println(cars);
-        cars.clear();
-        System.out.println(cars);
-
-        for (String car : cars) {
-            System.out.println(car);
         }
     }
 }
