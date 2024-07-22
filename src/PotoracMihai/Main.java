@@ -1,96 +1,159 @@
 package PotoracMihai;
 
-import java.util.Scanner;
-
 public class Main {
-    public static void main(String[] args) {
-        /*
-        System.out.println("Enter a number: ");
-        Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
-        if (number > 0) {
-            System.out.println("Number is positive");
-        } else if (number < 0) {
-            System.out.println("Number is negative");
-        } else {
-            System.out.println("Number is zero");
-        }*/
-        /*
-        int number = 11;
-
-        if(number % 2 == 0) {
-            System.out.println("Number is even");
-        } else {
-            System.out.println("Number is odd");
-        }*/
-        /*
-        int num = 6;
-         if(num % 2 == 0 && num % 3 == 0) {
-            System.out.println("Number is divisible by 2 and 3");
-         } else {
-            System.out.println("Number is not divisible by 2 and 3");
-         }*/
-        /*
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your name: ");
-        String name = sc.nextLine();
-        System.out.println("Hello " + name + "!" + "Length of your name is: " + name.length());
-        */
-
+    /*
+    // Write a program that counts from 1 to 10 using a while loop.
+    int count = 1;
+        while (count <= 10) {
+            System.out.println("Count is: " + count);
+            count++;
+        }
+    // Write a program that prints all even numbers from 0 to 50 using a while loop.
+        int count = 0;
+        while (count <= 50) {
+            System.out.println(count);
+            count += 2;
+        }
+    // Implement a program that prompts the user to enter a password until the correct password entered.
+        String password = "1111";
+        String input = "";
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a number for x: ");
-        int x = scanner.nextInt();
-        System.out.println("Enter a number for y: ");
-        double y =  scanner.nextDouble();
-        System.out.println("Sum of x and y is: " + (x + y));
+        while (!input.equals(password)) {
+            System.out.println("Enter password: ");
+            input = scanner.nextLine();
+        }
+        System.out.println("Password is correct!");
 
-        if(x == y){
-            System.out.println("Numbers are equal");
-        } else {
-            System.out.println("Numbers are not equal");
+        //  Create a program that calculates the sum of all even numbers between 1 and 100 using a while loop.
+        int count = 0;
+        int sum = 0;
+
+        while (count <= 10) {
+        sum = sum + count;
+        count += 2;
         }
 
-        if(x >  0){
-            System.out.println("Number  'x' is positive");
-        } else if(x < 0){
-            System.out.println("Number 'x' is negative");
-        } else {
-            System.out.println("Number 'x' is zero");
+        System.out.println("Sum of all even numbers between 1 and 100 is: " + sum);
+
+        System.out.println("Sum of all even numbers between 1 and 100 is: " + sum);
+
+         // Write a program that counts from 10 to 1 using a while loop.
+        int count = 10;
+
+        while (count >= 1) {
+            System.out.println(count);
+            count -= 1;
         }
 
-        int a = 3 ,b = 2, c = 10;
-        if(a > b && a > c){
-            System.out.println("a is the largest number");
-        } else if(b > a && b > c){
-            System.out.println("b is the largest number");
-        } else {
-            System.out.println("c is the largest number");
+         //Write a program that prints the sum of all even numbers from 0 to 50 using a while loop.
+        int count = 0;
+        int sum = 0;
+        while (count <= 50) {
+            sum += count;
+            count += 2;
+        }
+        System.out.println("The sum of all even numbers from 0 to 50 is: " + sum);
+
+        //Write a program that counts from 1 to 10 using a for loop.
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("Count is: " + i);
         }
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your firstName: ");
-        String firstName = sc.nextLine();
-        System.out.println("Enter your lastName: ");
-        String lastName = sc.nextLine();
-        System.out.println("Hello " + firstName + " " + lastName + "!");
+         int number = 6;
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(number + " * " + i + " = " + number * i);
+        }
 
+        //Write a program that counts from 10 to 1 using a for loop.
+        for (int i = 10; i >= 1; i--) {
+            System.out.println(i);
+        }
 
-        int number = 0;
-        switch (number){
-            case 0:
-                System.out.println("Number is 0");
+        // Write a program that prints the multiplication table for a given number.
+
+        int number = 6;
+        for (int i = 1; i <= 10; i++) {
+        System.out.println(number + " * " + i + " = " + number * i);
+        }
+
+        //Write a program that prints the sum of all odd numbers from 1 to 51 using a for loop.
+        int sum = 0;
+        for (int i = 1; i <= 51; i += 2) {
+            sum += i;
+        }
+        System.out.println("The sum of all odd numbers from 1 to 51 is: " + sum);
+
+        ***********************************************************
+        String[] arr = {"Opel", "BMW", "Audi", "Mercedes", "Volkswagen"};
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int sum = 0;
+        for (int i : arr) {
+            sum += i;
+        }
+        System.out.println("The sum of all elements in the array is: " + sum);
+        //Write a Java program to check if an element exists in an integer array.
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int element = 8;
+
+        boolean exists = false;
+        exists = true;
+
+        for (int i : arr) {
+            if (i == element) {
+                exists = true;
                 break;
-            case 1:
-                System.out.println("Number is 1");
-                break;
-            case 2:
-                System.out.println("Number is 2");
-                break;
-            default:
-                System.out.println("Number is not 0, 1 or 2");
+            }
         }
+        System.out.println("The element " + element + " exists in the array: " + exists);
 
+        //Write a Java program to count the number of positive elements in an integer array.
+        int[] array = {1, -2, 3, -4, 5, -6, 7, -8, 9};
+        int count = 0;
+        for (int i : array) {
+            if (i > 0) {
+                count++;
+            }
+        }
+        System.out.println("The number of positive elements in the array is: " + count);
     }
 
+     */
+    public static void main(String[] args) {
 
+        //tasck3
+        //Calculate the sum of numbers from 55 to 111 using a do-while loop.
+        /*
+        int count = 55;
+        int sum = 0;
+        do {
+            sum += count;
+            count++;
+        } while (count <= 111);
+        System.out.println("Sum of numbers from 55 to 111 is: " + sum);
+
+
+        //Calculate the sum of numbers from 1 to 100 using a for loop.
+        int sum = 0;
+        for (int i = 1; i <= 100; i++) {
+            sum += i;
+            i++;
+        }
+        System.out.println("Sum of number from 1 to 100 is: " + sum);
+
+
+        //Create a program that finds and displays the average value of all elements in an array of floating-point numbers.
+        double[] arr = {1.1, 2.2, 3.3, 4.4, 5.5};
+        double sum = 0;
+        for (double i : arr) {
+            sum += i;
+        }
+        System.out.println("The average value of all elements in the array is: " + sum / arr.length);
+        */
+
+
+    }
 }
