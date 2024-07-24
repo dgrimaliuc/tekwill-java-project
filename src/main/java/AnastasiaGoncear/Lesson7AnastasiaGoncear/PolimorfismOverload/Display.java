@@ -11,7 +11,6 @@ public class Display {
         System.out.println("Displaying double: " + number);
     }
 
-
     public void show(String text) {
         System.out.println("Displaying string: " + text);
     }

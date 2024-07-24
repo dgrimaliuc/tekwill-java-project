@@ -5,7 +5,6 @@ public class Main {
         Playable myGuitar = new Guitar();
         Playable myPiano = new Piano();
         Playable myDrums = new Drums();
-
         myGuitar.play();
         myPiano.play();
         myDrums.play();

@@ -14,6 +14,4 @@ class Book implements Printable {
     public String toString() {
         return "Book [Name: " + name + ", Author: " + author + ", Price: $" + price + "]";
     }
-
-
 }

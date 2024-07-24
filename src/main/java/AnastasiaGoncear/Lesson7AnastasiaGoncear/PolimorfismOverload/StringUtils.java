@@ -20,7 +20,6 @@ public class StringUtils {
 
     public String concatenate(String[] strings) {
         StringBuilder result = new StringBuilder();
-
         for (String string : strings) {
             result.append(string); //add at the end og string line
         }

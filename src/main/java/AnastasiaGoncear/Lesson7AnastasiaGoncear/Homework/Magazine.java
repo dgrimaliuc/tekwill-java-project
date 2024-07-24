@@ -8,9 +8,9 @@ class Magazine implements Printable {
         this.name = name;
         this.owner = owner;
     }
-
     @Override
     public String toString() {
         return "Magazine [Name: " + name + ", Owner: " + owner + "]";
     }
+
 }
