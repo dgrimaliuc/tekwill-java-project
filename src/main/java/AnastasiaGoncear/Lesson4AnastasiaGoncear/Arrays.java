@@ -1,5 +1,6 @@
 package AnastasiaGoncear.Lesson4AnastasiaGoncear;
 
+
   import java.util.ArrayList;
 
     public class Arrays {
@@ -20,4 +21,3 @@ package AnastasiaGoncear.Lesson4AnastasiaGoncear;
             }
         }}
 
-   

@@ -14,16 +14,18 @@ public class Animal {
     int age;
     String sound;
 
-    Animal(String name,    String type,   int age,    String sound){
-        this.name=name;
-        this.type=type;
-        this.age=age;
-        this.sound=sound;
+    Animal(String name, String type, int age, String sound) {
+        this.name = name;
+        this.type = type;
+        this.age = age;
+        this.sound = sound;
 
     }
+
     public void makeSound() {
         System.out.println(sound);
     }
+
     public void displayInfo() {
         System.out.println(name + " " + type + " " + age + " " + sound);
     }

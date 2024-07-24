@@ -13,5 +13,6 @@ public class Task3HashMap {
         countryMap.put("ITA", "Italy");
         for (HashMap.Entry<String, String> entry : countryMap.entrySet()) {
             System.out.println(" Country: " + entry.getValue());
+        }
     }
-}}
+}

@@ -1,4 +1,5 @@
 package AnastasiaGoncear.Lesson5AnastasiaGoncear;
+
 //Write a Java method called "printNumbers" that takes an integer as a parameter and prints
 // all the numbers from 1 to that integer.
 public class NumberPrinter {

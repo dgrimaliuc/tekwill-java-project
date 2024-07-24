@@ -13,7 +13,7 @@ public class Task2Set {
         names.add("Tomas");
         names.add("Iris");
         names.add("John");
-        System.out.println("The length of the string is:" +" "+ names.size());
+        System.out.println("The length of the string is:" + " " + names.size());
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a string to check if it is in the HashSet:");

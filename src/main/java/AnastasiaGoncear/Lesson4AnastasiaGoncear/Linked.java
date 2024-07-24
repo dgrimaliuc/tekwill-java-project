@@ -1,4 +1,5 @@
-package AnastasiaGoncear.Lesson4AnastasiaGoncear;
+package AnastasiaGoncear.LessonAnastasiaGoncear;
+
 import java.util.Collections;
 import java.util.LinkedList;
 
