@@ -1,27 +1,26 @@
 package LiubovZapsa.Lesson1707;
-/*
-public class Homework1 {
-
-    static void greet(String name) {
-        System.out.println("Hello, " + name + "!");
-    }
-
-    public static void main(String[] args) {
-        greet("Liubov");
-        System.out.println();
-*/
 
 public class Homework1 {
-    static int getdifference(int x, int y) {
-        return x - y;
+
+    static int getMaxNumber(int x, int y, int z) {
+        if (x >= y && x >= z) {
+            return x;
+        } else if (y >= x && y >= z) {
+            return y;
+        } else {
+            return z;
+        }
     }
 
     public static void main(String[] args) {
         int num1 = 6;
         int num2 = 4;
-        int difference = getdifference(num1, num2);
-        System.out.println("Difference: " + difference);
+        int num3 = 9;
+        int maxNumber = getMaxNumber(num1, num2, num3);
+
+        System.out.println("Max number: " + maxNumber);
     }
 }
+
 
 
