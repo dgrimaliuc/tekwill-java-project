@@ -2,7 +2,7 @@ package VictorMurashev.lesson20240724_error_excep;
 
 public class ToUpperCaseThrowException {
 
-    public static void toUpperCase(String str) {
+    public static void toUpperCase(String str) throws NullPointerException {
         if (str == null) {
             throw new NullPointerException("The string is null.");
         }
