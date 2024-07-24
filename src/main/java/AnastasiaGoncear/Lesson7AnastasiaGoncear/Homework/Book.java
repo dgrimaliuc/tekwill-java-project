@@ -10,7 +10,6 @@ class Book implements Printable {
         this.author = author;
         this.price = price;
     }
-
     @Override
     public String toString() {
         return "Book [Name: " + name + ", Author: " + author + ", Price: $" + price + "]";

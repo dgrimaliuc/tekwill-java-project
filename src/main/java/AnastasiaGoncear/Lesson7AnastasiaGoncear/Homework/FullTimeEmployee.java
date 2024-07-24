@@ -7,7 +7,6 @@ public  class FullTimeEmployee extends Employee {
             super(name, id);
             this.monthlySalary = monthlySalary;
         }
-
         @Override
         public double calculateSalary() {
             return monthlySalary;

@@ -13,6 +13,4 @@ class Magazine implements Printable {
     public String toString() {
         return "Magazine [Name: " + name + ", Owner: " + owner + "]";
     }
-
-
 }

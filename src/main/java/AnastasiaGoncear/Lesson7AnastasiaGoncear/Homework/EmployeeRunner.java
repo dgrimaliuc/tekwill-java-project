@@ -8,5 +8,6 @@ public class EmployeeRunner {
         System.out.println("Full Time Employee Salary: $" + fullTimeEmployee.calculateSalary());
         System.out.println("Part Time Employee Salary: $" + partTimeEmployee.calculateSalary());
     }
+
 }
 

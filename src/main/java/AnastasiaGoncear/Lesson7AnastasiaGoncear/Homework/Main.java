@@ -8,7 +8,6 @@ public class Main {
                 new Book("Effective Java", "Joshua Bloch", 45.50),
                 new Magazine("Fashion Forward", "Anna Wintour")
         };
-
         for (Printable printable : printables) {
             printable.print();
         }
