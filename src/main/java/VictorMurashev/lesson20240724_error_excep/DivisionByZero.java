@@ -7,7 +7,7 @@ public class DivisionByZero {
         divide(10, 0);
     }
 
-    public static void divide(int a, int b) {
+    public static void divide(int a, int b) throws ArithmeticException{
         try {
             if (b == 0) {
                 throw new ArithmeticException("Division by zero is not allowed.");
