@@ -12,7 +12,7 @@ public class Main {
             int number = Integer.parseInt(input);
             System.out.println("The converted number is: " + number);
         } catch (NumberFormatException e) {
-            throw new PersonalNumberException("Impossible to parse this string value \'" + input + "\' into Integer");
+            throw new CustomStringToNumberException("Impossible to parse this string value \'" + input + "\' into Integer");
         }
     }
 }
