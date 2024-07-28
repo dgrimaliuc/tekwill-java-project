@@ -1,4 +1,4 @@
-package LiubovZapsa.Homework1707;
+package LiubovZapsa.Homework170704;
 
 public class AnimalRunner {
 
