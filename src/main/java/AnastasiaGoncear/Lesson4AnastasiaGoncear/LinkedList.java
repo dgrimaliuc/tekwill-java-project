@@ -1,5 +1,8 @@
 package AnastasiaGoncear.Lesson4AnastasiaGoncear;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 714e5581d3da5ad18435a80d77ab1deda6d98558
 import java.util.Arrays;
 
 public class LinkedList {
