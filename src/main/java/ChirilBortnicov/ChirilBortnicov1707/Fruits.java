@@ -1,4 +1,4 @@
-package ChirilBortnicov1707;
+package main.java.ChirilBortnicov.ChirilBortnicov1707;
 
 public class Fruits {
     //1. Create a class named Fruit with instance variables such as name, color and calories.
