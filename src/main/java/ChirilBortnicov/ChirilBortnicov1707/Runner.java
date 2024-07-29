@@ -1,4 +1,4 @@
-package ChirilBortnicov1707;
+package main.java.ChirilBortnicov.ChirilBortnicov1707;
 
 public class Runner {
     public static void main(String[] args) {
