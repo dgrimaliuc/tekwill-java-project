@@ -1,18 +1,31 @@
 package DenisGrimaliuc.task1907.inheritance;
 
 
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.Scanner;
+
 public class Runner {
     public static void main(String[] args) {
-//        Car car1 = new Car("Toyota", "Black", 2020, 4, "Gasoline");
-//        car1.printInfo();
-//        Dog dog = new Dog("Rex", 5, "Spaniel", "Wow-wow", "Spaniel", 4.5);
-//        dog.printInfo();
-//        Cat cat = new Cat("Smouky", 4, "British", "Meow", "Black");
-//        cat.printInfo();
-//        Manager manager = new Manager(1221, "Johnatan", 1000, "QA", 10);
-//        manager.printInfo();
-//        System.out.println(manager);
-        SavingsAccount savingsAccount = new SavingsAccount(1234, 100, "John", 0.1, 50);
-        savingsAccount.printInfo();
+        // Create a file “resources.txt” if it doesn't exist.
+        // Create a program that prompts the user for input and saves it to a text file.
+        var fileName = "resources2.txt";
+        Scanner sc = new Scanner(System.in);
+
+        try (PrintWriter writer = new PrintWriter(fileName)) {
+
+            if (!Files.exists(Path.of(fileName))) {
+                Files.createFile(Path.of(fileName));
+            }
+
+            System.out.println("Enter text: ");
+            var input = sc.nextLine();
+            writer.println(input);
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
