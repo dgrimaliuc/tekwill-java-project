@@ -1,4 +1,4 @@
-package ChirilBortnicov.Inheritance;
+package main.java.ChirilBortnicov.Inheritance;
 
 public class Runner {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package ChirilBortnicov.Inheritance;
+package main.java.ChirilBortnicov.Inheritance;
 
-public class Rectalge extends Shape{
+public class Rectalge extends Shape {
 
     private double width;
     private double height;

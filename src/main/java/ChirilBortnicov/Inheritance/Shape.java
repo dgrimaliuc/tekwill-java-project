@@ -1,4 +1,4 @@
-package ChirilBortnicov.Inheritance;
+package main.java.ChirilBortnicov.Inheritance;
 
 public class Shape {
     private String color;
