@@ -1,4 +1,4 @@
-package ChirilBortnicov.Inheritance;
+package main.java.ChirilBortnicov.Inheritance;
 
 public class Animal {
     //Implement a class called “Animal” with instance variables for name, age, and sound.
