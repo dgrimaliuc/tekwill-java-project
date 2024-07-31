@@ -1,16 +1,15 @@
 package main.java.ChirilBortnicov.Lesson2907;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
-public class Main {
+public class File {
     public static void main(String[] args) throws IOException {
 
-        File newFile = new File("Resources/fullName.txt");
+        java.io.File newFile = new java.io.File("Resources/fullName.txt");
         newFile.createNewFile();
 
         var fullName = "Resources/fullName.txt";
@@ -29,7 +28,7 @@ public class Main {
 
         // Create a file and enter some lines of text, create a method
         // to read file content and print it.
-        File newFile2 = new File("Resources/Print.txt");
+        java.io.File newFile2 = new java.io.File("Resources/Print.txt");
         newFile2.createNewFile();
         try {
             List<String> lines = Files.readAllLines(Path.of("Resources/Print.txt"));
