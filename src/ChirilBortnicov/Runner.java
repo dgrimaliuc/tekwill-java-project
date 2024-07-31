@@ -2,10 +2,7 @@ package ChirilBortnicov;
 
 import ChirilBortnicov.Lesson2207.Overriding.*;
 
-import java.io.StringWriter;
-import java.util.*;
-
-public class Main {
+public class Runner {
 
     public static void main(String[] args) {
        //Create a Vehicle class with a startEngine method and subclasses Car, Motorcycle,
