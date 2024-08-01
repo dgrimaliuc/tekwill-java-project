@@ -1,12 +1,12 @@
-package LiubovZapsa.Inheritance1;
+package LiubovZapsa.lesson2207.Overriding;
 
-public class Animal {
+public class Animal2 {
     private String name;
     private int age;
     private String type;
     private String sound;
 
-    public Animal(String name, int age, String type, String sound) {
+    public Animal2(String name, int age, String type, String sound) {
         this.name = name;
         this.age = age;
         this.type = type;
@@ -44,4 +44,9 @@ public class Animal {
     public void setSound(String sound) {
         this.sound = sound;
     }
+
+    public void makeSound() {
+        System.out.println("Animal sound");
+    }
 }
+

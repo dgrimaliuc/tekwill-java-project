@@ -1,6 +1,6 @@
-package LiubovZapsa.Inheritance1;
+package LiubovZapsa.lesson2207.Overriding;
 
-public class Dog extends Animal {
+public class Dog extends Animal2 {
     private String breed;
     private double wieght;
 
@@ -10,6 +10,9 @@ public class Dog extends Animal {
         this.wieght = weight;
     }
 
+    public void makeSound() {
+        System.out.println("Gaf gaf");
+    }
 
     public String getBreed() {
         return breed;
