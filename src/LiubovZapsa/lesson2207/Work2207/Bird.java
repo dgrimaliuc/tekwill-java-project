@@ -1,4 +1,4 @@
-package LiubovZapsa.lesson2207.Overriding;
+package LiubovZapsa.lesson2207.Work2207;
 
 public class Bird extends Animal2 {
 
@@ -8,6 +8,6 @@ public class Bird extends Animal2 {
     }
 
     public void makeSound() {
-        System.out.println("Chiric chirik");
+        System.out.println("Chiric chirik!");
     }
 }

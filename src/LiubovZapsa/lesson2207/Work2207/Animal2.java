@@ -1,4 +1,4 @@
-package LiubovZapsa.lesson2207.Overriding;
+package LiubovZapsa.lesson2207.Work2207;
 
 public class Animal2 {
     private String name;
@@ -46,7 +46,7 @@ public class Animal2 {
     }
 
     public void makeSound() {
-        System.out.println("Animal sound");
+        System.out.println("Animal sound!");
     }
 }
 

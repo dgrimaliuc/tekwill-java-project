@@ -1,4 +1,4 @@
-package LiubovZapsa.lesson2207.Overriding;
+package LiubovZapsa.lesson2207.Work2207;
 
 public class Dog extends Animal2 {
     private String breed;
@@ -11,7 +11,7 @@ public class Dog extends Animal2 {
     }
 
     public void makeSound() {
-        System.out.println("Gaf gaf");
+        System.out.println("Gaf gaf!");
     }
 
     public String getBreed() {

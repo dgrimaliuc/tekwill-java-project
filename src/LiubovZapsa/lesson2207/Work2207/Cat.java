@@ -1,4 +1,4 @@
-package LiubovZapsa.lesson2207.Overriding;
+package LiubovZapsa.lesson2207.Work2207;
 
 public class Cat extends Animal2 {
     String breed;
@@ -9,7 +9,7 @@ public class Cat extends Animal2 {
     }
 
     public void makeSound() {
-        System.out.println("Meau meau");
+        System.out.println("Meau meau!");
     }
 
     public String getBreed() {
