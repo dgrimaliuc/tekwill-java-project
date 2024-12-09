@@ -1,0 +1,28 @@
+name: Java Build
+
+# Trigger the workflow only on pull request events targeting the master branch
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up JDK 21 (or specify your required version)
+      - name: Set up JDK 21
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      # Step 3: Compile Java source files
+      - name: Compile Java project
+        run: javac -d out $(find src -name "*.java")
