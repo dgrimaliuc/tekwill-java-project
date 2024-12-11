@@ -1,4 +1,4 @@
-package josancristi;
+package main.java.josancristi;
 
 public class helloworld {
     public static void main(String[] args) {
