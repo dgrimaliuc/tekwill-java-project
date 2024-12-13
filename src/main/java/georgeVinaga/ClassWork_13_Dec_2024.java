@@ -1,5 +1,7 @@
 package main.java.georgeVinaga;
 
+import java.util.Scanner;
+
 public class ClassWork_13_Dec_2024 {
     public static void main(String[] args) {
 //--------------------------------------------------------------------
@@ -80,7 +82,7 @@ public class ClassWork_13_Dec_2024 {
 //         • Folosind Scanner, solicitați utilizatorului să introducă vârsta sa.
 //         • Dacă numărul este mai mare sau egal cu 18, afișați mesajul: “Sunteți major”.
 //         • În caz contrar, afișați mesajul: “Nu sunteți major”.
-        /*
+
         Scanner scanner = new Scanner(System.in); // Crează un obiect Scanner
         System.out.println("Scrie ce vârstă ai: ");
         int myAge = scanner.nextInt(); // Citețte vârsta care o scriso utilizatorul
@@ -91,7 +93,7 @@ public class ClassWork_13_Dec_2024 {
         } else {
             System.out.println("Nu sunteți major.");
         }
-        */
+
 
     }
 }
