@@ -6,7 +6,7 @@ public class ClassWork_13_Dec_2024 {
         if (age >= 18) {
             System.out.println("Ești adult.");
         } else {
-            System.out.println("E;ti minor.");
+            System.out.println("Ești minor.");
         }
     }
 }
