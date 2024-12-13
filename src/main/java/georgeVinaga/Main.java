@@ -1,7 +1,7 @@
-package denisGrimaliuc;
+package main.java.georgeVinaga;
 
 public class Main {
     public static void main(String[] args) {
-        // Some code Here
+        System.out.println("Helo World");
     }
 }
