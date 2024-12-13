@@ -36,7 +36,7 @@ public class ClassWork_13_Dec_2024 {
         */
 //--------------------------------------------------------------------
         /*
-        // Verifica daca un numar este pozitiv, negativ sau zero
+        // Verifică daca un numar este pozitiv, negativ sau zero
         int number = 0;
         if (number > 0) {
             System.out.println("Num is more then 0");
@@ -48,7 +48,7 @@ public class ClassWork_13_Dec_2024 {
         */
 //--------------------------------------------------------------------
         /*
-        // Verifica daca numaru este par sau impar
+        // Verifică daca numaru este par sau impar
         int number = 1;
         if (number % 2 == 0) {
             System.out.println("Num is par");
