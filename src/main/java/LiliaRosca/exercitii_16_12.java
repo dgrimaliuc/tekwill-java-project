@@ -1,4 +1,7 @@
 package main.java.LiliaRosca;
+
+import java.util.Scanner;
+
 public class exercitii_16_12 {
     public static void main(String[] args) {
         // old - class 11.12
@@ -121,14 +124,13 @@ public class exercitii_16_12 {
             if (count % 2 == 0) { System.out.println(count);
             }
             count ++;
-
         // parola pina la corecta
         Scanner sc = new Scanner (System.in);
         String password = "aaaaa";
-        String intrpassword;
-        do { System.out.println("Introduceti paorla: ");
-            intrpassword = sc.nextLine();
-            } while (!intrpassword.equals(password));
+        String intrPassword;
+        do { System.out.println("Introduceti parola: ");
+            intrPassword = sc.nextLine();
+            } while (!intrPassword.equals(password));
 
 // 16.12 de sine statator-----------------------------------------------
         //numără de la 10 la 1 folosind  ciclu while
