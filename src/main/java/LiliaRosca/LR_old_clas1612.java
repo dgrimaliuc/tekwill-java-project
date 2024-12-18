@@ -31,7 +31,6 @@ public class LR_old_clas1612 {
 */
         // 4. afișează un array de tip String, definit în cadrul programului
         // crearea array gol, ciclu cu scanner pentru comletarea valorilor
-        //
 
     }
 }
