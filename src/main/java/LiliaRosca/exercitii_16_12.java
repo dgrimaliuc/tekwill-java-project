@@ -111,7 +111,7 @@ public class exercitii_16_12 {
         } else { System.out.println("Nu sunteti major");
         }*/
 
-// class 16_12---------------------------------------------------
+// class 16_12  ciclu while ---------------------------------------------------
         /*int count = 1;
         while (count <= 100) {
             System.out.println("Count: " + count);
@@ -147,8 +147,15 @@ public class exercitii_16_12 {
         }
         System.out.println(sum);
 
-        // ciclu for
-        for (int i = 1; i <= 5; i ++) { System.out.println("Count: " + i);
+// ciclu for ---------------------------------------------
+        for (int i = 1; i <= 5; i ++) {
+            System.out.println("Count: " + i);
+        }
+        //numara de la 1 la 10
+        for (int i = 1; i <= 10; i ++) { System.out.println(i);
+        }
+        //numara de la 10 la 1
+        for (int i = 10; i >= 1; i --) { System.out.println(i);
         }
         // impare de la 10 la 30
         for (int i = 11; i <= 30; i += 2) // i = i + 2
