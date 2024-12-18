@@ -1,11 +1,8 @@
 package main.java.LiliaRosca;
-import java.util.Scanner;
-
 public class exercitii_16_12 {
     public static void main(String[] args) {
         // old - class 11.12
-        /* import java.util.Scanner;
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.print("Intrody numele tau: ");
         String name = scanner.nextLine();
         System.out.println ("Buna, " + name + "!");
