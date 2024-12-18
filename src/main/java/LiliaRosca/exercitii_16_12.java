@@ -1,5 +1,7 @@
 package main.java.LiliaRosca;
 
+import java.util.Scanner;
+
 public class exercitii_16_12 {
     public static void main(String[] args) {
         // old - class 11.12
@@ -154,18 +156,47 @@ public class exercitii_16_12 {
         //numara de la 1 la 10
         for (int i = 1; i <= 10; i ++) { System.out.println(i);
         }
-        //numara de la 10 la 1
+        //numara de la 10 la 1   decrementarea
         for (int i = 10; i >= 1; i --) { System.out.println(i);
         }
         // impare de la 10 la 30
         for (int i = 11; i <= 30; i += 2) // i = i + 2
             System.out.println(i);
 
+        //tabela inmultirii pentru un numar
+        int a = 8;
+        for (int i = 0; i <=10; i ++) {
+            System.out.println(a + " * " + i + " = " + a * i);
+        }
         //suma tuturor numerelor impare de la 1 la 51 folosind o buclă for
         int sum = 0;
         for (int i = 11 ; i <= 51; i += 2) {
             sum += i;
         }
-        System.out.println(sum);*/
+        System.out.println(sum);
+
+        // utilizatorul introduce o serie de note pina cind o nota negative este introdusa
+        int number;
+        Scanner sc = new Scanner(System.in);
+        do { System.out.println("Enter a number: ");
+            number = sc.nextInt();
+            if (number < 0) {
+                break;
+            }
+        } while (true);
+
+        // numere pare de la 1 la 20 fara multiplii la 5
+        for (int i = 1; i <= 20; i++) {
+            if (i % 2 != 0) { // excludem numere impare
+               continue;
+            }
+            if (i % 5 == 0) { // excludem miltiplii la 5
+               continue;
+            }
+            System.out.println(i);
+        }*/
+// array -----------------------------------------------------------
+        String[] cars = {"Volvo", "BMV", "Ford", "Mazda", "Opel"};
+
     }
 }
