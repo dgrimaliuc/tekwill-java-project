@@ -194,9 +194,61 @@ public class exercitii_16_12 {
                continue;
             }
             System.out.println(i);
-        }*/
+        }
 // array -----------------------------------------------------------
-        String[] cars = {"Volvo", "BMV", "Ford", "Mazda", "Opel"};
+        String[] cars = {"Volvo", "BMV", "Ford", "Mazda"};
+        System.out.println(cars[0]); // numerare se incepe cu 0 - primul element Volvo
 
+        // modificarea elementului din array - prezentarea
+        String[] cars = {"Volvo", "BMV", "Ford", "Mazda"};
+        cars[0] = "Opel";
+        System.out.println(cars[0]); // primul element este Opel
+
+        // afisarea numarului de elemente din array - prezentarea
+        String[] cars = {"Volvo", "BMV", "Ford", "Mazda"};
+        System.out.println(cars.length); // 4
+
+        //afisarea elementelor din array - prezentarea
+        String[] cars = {"Volvo", "BMV", "Ford", "Mazda"};
+        for (int i = 0; i < cars.length; i++) {
+            System.out.println(cars[i]);
+        }*
+// for each loop --------------------------------------------------------
+        // afisarea elementelor prin for each - prezentarea
+        String[] cars = {"Volvo", "BMV", "Ford", "Mazda"};
+        for (String i : cars) { System.out.println(i);
+        }
+        // suma elementelor din array
+        int [] num = {1, 5, 8, 7, 9, 16};
+        int sum = 0;
+        for (int i : num) { sum += i;
+        }
+        System.out.println("Suma elementelor este: " + sum);
+
+        // maxim din array
+        int [] num = {1, 5, 8, 7, 9, 16, 584, 68, 78, 63};
+        int max = num[0];
+        for (int i : num) {
+            if (i > max){ max = i;
+            }
+        }
+        System.out.println("Maxim: " + max);
+
+        // minim din array
+        int [] num = {1, 5, 8, 7, 9, 16, 584, 68, 78, 63};
+        int min = num[0];
+        for (int i : num) {
+            if (i < min){ min = i;
+            }
+        }
+        System.out.println("Minim: " + min);
+*/
+        // media din array
+        int [] num = {1, 5, 8, 7, -84, 16, 584, 68, 78, 63};
+        int sum = 0;
+        for (int i : num) {
+            sum += i;
+        }
+        System.out.println("Media: " + sum / num.length);
     }
 }
