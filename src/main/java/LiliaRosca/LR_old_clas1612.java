@@ -2,6 +2,7 @@ package main.java.LiliaRosca;
 
 public class LR_old_clas1612 {
     public static void main(String[] args) {
+
 // HW 16.12----------------------------------------------------------
         // 1. suma numerelor de la 55 la 111 folosind o buclă do-while
         /*int a = 55;
