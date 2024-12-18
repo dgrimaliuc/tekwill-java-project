@@ -10,7 +10,7 @@ public class exercitii_16_12 {
         String message = "Hello";
         int lung = message.length(); // lungimea variabilei message
 
-        // HW 11.12
+// HW 11.12--------------------------------------------------------------
         // 2  Creati o clasa noua in folder personal cu metoda main
         int number = 1;
         double zecimale = 0.11;
@@ -22,7 +22,7 @@ public class exercitii_16_12 {
         System.out.println(caractere);
         System.out.println(adevarat);
 
-        // class 13.12
+// class 13.12---------------------------------------------
         int myAge = 25;
         int votingAge = 18;
         System.out.println(myAge >= votingAge);
@@ -76,7 +76,7 @@ public class exercitii_16_12 {
         String str = sc.nextLine();
         System.out.println("String length is: " + str.length());
 
-        // 13.12 de sine statator class
+// 13.12 de sine statator class ---------------------------------
         // suma a doua numere (a + b)
         int num1 = 6;
         int num2 = 13;
@@ -102,8 +102,7 @@ public class exercitii_16_12 {
         int c = 2;
         int largest = Math.max(Math.max(a, b), c);
         System.out.println("Numar maxim " + largest);
-
-        // suplimentar verifica varsta folosind scanner: >= 18 - Sunteti major, < 18 - Nu sunteti major
+// suplimentar verifica varsta folosind scanner: >= 18 - Sunteti major, < 18 - Nu sunteti major
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a num: ");
         int str = sc.nextInt();
@@ -111,17 +110,15 @@ public class exercitii_16_12 {
         } else { System.out.println("Nu sunteti major");
         }*/
 
-        // class 16_12
+// class 16_12---------------------------------------------------
         /*int count = 1;
         while (count <= 100) {
             System.out.println("Count: " + count);
             count ++; // sau count = count + 1 si aici deja se poate de modificat pasu
-
         // numere pare pina la 50
         int count = 1;
         while (count <= 50){
-            if (count % 2 == 0) {
-                System.out.println(count);
+            if (count % 2 == 0) { System.out.println(count);
             }
             count ++;
 
@@ -129,19 +126,16 @@ public class exercitii_16_12 {
         Scanner sc = new Scanner (System.in);
         String password = "aaaaa";
         String intrpassword;
-        do {
-            System.out.println("Introduceti paorla: ");
+        do { System.out.println("Introduceti paorla: ");
             intrpassword = sc.nextLine();
-        } while (!intrpassword.equals(password));
+            } while (!intrpassword.equals(password));
 
-        // de sine statator
+// 16.12 de sine statator-----------------------------------------------
         //numără de la 10 la 1 folosind  ciclu while
         int count = 10;
-        while (count >= 1) {
-            System.out.println(count);
+        while (count >= 1) { System.out.println(count);
             count--; // count = count - 1
-        }
-
+            }
         // suma tuturor numerelor pare de la 0 la 50 folosind ciclu while
         int count = 1;
         int sum = 0;
@@ -154,10 +148,8 @@ public class exercitii_16_12 {
         System.out.println(sum);
 
         // ciclu for
-        for (int i = 1; i <= 5; i ++) {
-            System.out.println("Count: " + i);
+        for (int i = 1; i <= 5; i ++) { System.out.println("Count: " + i);
         }
-
         // impare de la 10 la 30
         for (int i = 11; i <= 30; i += 2) // i = i + 2
             System.out.println(i);
