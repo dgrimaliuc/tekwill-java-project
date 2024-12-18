@@ -1,4 +1,5 @@
 package main.java.LiliaRosca;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -6,8 +7,9 @@ import java.util.Scanner;
 
 public class LR_class_1812 {
     public static void main(String[] args) {
+//Class 18.12  ArrayList --------------------------------------------
         // ArrayList + afisat in ordine inversa
-        /*ArrayList<Integer> num = new ArrayList<>();
+        /* ArrayList<Integer> num = new ArrayList<>();
         num.add(11);
         num.add(12);
         num.add(13);
@@ -51,10 +53,9 @@ public class LR_class_1812 {
         }
         System.out.println(sum);
 
-        // ceva tipuri de liste....
+// LinkedList -------------------------------------------------
 
-
-        // HashMap ----------------------------------------------------
+// HashMap ----------------------------------------------------
         HashMap<String, String> capitalCities = new HashMap<>();
         // adding key and value
         capitalCities.put("England", "London");
@@ -71,7 +72,7 @@ public class LR_class_1812 {
         for (String i : people.keySet()) {
             System.out.println("key: " + i + " value: " + people.get(i));
         }*/
-        // HashSet
+// HashSet --------------------------------------------------------------
         HashSet<Integer> num = new HashSet<>();
         num.add(5);
         num.add(9);
@@ -85,8 +86,7 @@ public class LR_class_1812 {
             }
         }
 
-
-        // Collections
+// Collections---------------------------------------------------------
 
 
     }
