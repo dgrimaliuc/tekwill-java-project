@@ -55,17 +55,17 @@ public class Loops {
         System.out.println(sum);
 
 //      Calculează suma numerelor de la 1 la 100 folosind o buclă for.
-        int sum1 = 0;
+        double sum1 = 0;
         for (int i = 0; i <= 100; i++) {
             sum1 += i;
         }
         System.out.println(sum1);
 
 //      Creează un program care găsește și afișează valoarea medie a tuturor elementelor dintr-un array de        numere reale.
-        double[] numbers = {1.5, 23, 45.92138, -32, 56.2112, 78.3, 80, 89, -1000, 213.34213};
-        int mid = 0;
+        double[] numbers = {1.5, 23.8, 45.92138, 56.2112, 78.3, 213.34213, 10.8};
+        double mid = 0;
         for (double i : numbers) {
-            mid += (int) i;
+            mid += i;
         }
         System.out.println("Middle of array: " + mid / numbers.length);
 
