@@ -7,7 +7,7 @@ import java.util.HashSet;
 
 public class LR_1812_HW {
     public static void main(String[] args) {
-       // 1. Liste - Creează un array ArrayList de șiruri de caractere și adaugă câteva fructe în acesta, apoi afișează lista pe ecran.
+    // 1. Liste - Creează un array ArrayList de șiruri de caractere și adaugă câteva fructe în acesta, apoi afișează lista pe ecran.
 /*        ArrayList<String> fructe = new ArrayList<>();
         fructe.add("Apple");
         fructe.add("Peach");
@@ -17,7 +17,7 @@ public class LR_1812_HW {
         for (int i = 0; i < fructe.size(); i ++) {
             System.out.println(fructe.get(i));
         }
-        //2. Seturi - Creează un Set de șiruri de caractere și adaugă câteva nume în acesta.
+    //2. Seturi - Creează un Set de șiruri de caractere și adaugă câteva nume în acesta.
         // Afișează dimensiunea Set-ului și verifică dacă un anumit nume există în Set.
         HashSet<String> vegies = new HashSet<String>();
         vegies.add("Potato");
@@ -32,7 +32,7 @@ public class LR_1812_HW {
         } else {
             System.out.println(veg + " was not found in the set.");
         }
-        // 3. Mapă - Creează un Map care stochează abrevierile ca chei și numele țărilor ca valori.
+    // 3. Mapă - Creează un Map care stochează abrevierile ca chei și numele țărilor ca valori.
         // Adaugă câteva perechi în map și recuperează capitala unei țări specifice.
         HashMap<String, String> countryMap = new HashMap<>();
         countryMap.put("USA", "United States of America");
@@ -43,7 +43,7 @@ public class LR_1812_HW {
         countryMap.get("England");
         System.out.println(countryMap.get("CAN"));
  */
-        //4. Optional: Având două Map-uri care conțin numele studenților ca chei și scorurile corespunzătoare ca valori,
+    //4. Optional: Având două Map-uri care conțin numele studenților ca chei și scorurile corespunzătoare ca valori,
         //scrie un program care găsește studenții care au obținut mai mult de 90 și stochează numele și scorurile lor într-un nou Map.
         Map<String, Integer> studentScores1 = new HashMap<>();
         studentScores1.put("Evelina", 85);
