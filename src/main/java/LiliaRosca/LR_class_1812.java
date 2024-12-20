@@ -171,5 +171,4 @@ public class LR_class_1812 {
         collections.fill(arr, obj:"1"); // umple
 */
     }
-
 }
