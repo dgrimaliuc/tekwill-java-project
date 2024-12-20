@@ -1,15 +1,39 @@
 package main.java.LiliaRosca;
 
-import java.util.ArrayList;
-import java.util.HashMap;
+//import java.util.ArrayList;
+//import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class LR_class_1812 {
     public static void main(String[] args) {
 //Class 18.12  ArrayList --------------------------------------------
+        // accesarea elementului din ArrayList
+/*        cars.get(0);
+
+        //modificarea elementului
+        cars.set(0, "Opel");
+
+        //stergerea elementului
+        cars.remove(0);
+
+        //stergerea tuturor elementelor
+        cars.clear();
+
+        //numarul elementelor
+        cars.size();
+
+        // exemple
+        ArrayList<String> cars = new ArrayList();
+        cars.add("Volvo");
+        cars.add("BMV");
+        cars.add("Ford");
+        cars.add("Mazda");
+        for (Stirng i : cars( {
+                System.out.println(i);
+        }
         // ArrayList + afisat in ordine inversa
-        /* ArrayList<Integer> num = new ArrayList<>();
+        ArrayList<Integer> num = new ArrayList<>();
         num.add(11);
         num.add(12);
         num.add(13);
@@ -31,7 +55,7 @@ public class LR_class_1812 {
 
         // de sine statator
         // 1.ArrayList de Integer și afișează elementele sale folosind foreach
-/*        ArrayList<Integer> num = new ArrayList<>();
+        ArrayList<Integer> num = new ArrayList<>();
         num.add(11);
         num.add(12);
         num.add(13);
@@ -54,6 +78,14 @@ public class LR_class_1812 {
         System.out.println(sum);
 
 // LinkedList -------------------------------------------------
+        LinkedList<String> cars = new LinkedList();
+        cars.add("Volvo");
+        cars.add("BMV");
+        cars.add("Ford");
+        cars.add("Mazda");
+        System.out.println(cars);
+        // adaugarea, modificarea, stergerea elementelor, golirea listei ca si la ArrayList
+        // + addFirst(); addLast(); removeFirst(); removeLast(); getFirst(); getLast();
 
 // HashMap ----------------------------------------------------
         HashMap<String, String> capitalCities = new HashMap<>();
@@ -64,6 +96,26 @@ public class LR_class_1812 {
         capitalCities.put("USA", "Washington DC");
         System.out.println(capitalCities);
 
+        // accesarea elementului
+        capitalCities.get("England");
+
+        //stergerea elementului
+        capitalCities.remove("England");
+
+        //stergerea tuturor elementelor
+        capitalCities.clear();
+
+        //numarul elementelor
+        capitalCities.size();
+
+        // afisarea doar cheilor
+        for (String i : capitalCities.keySet()) {
+        System.out.println(i);
+        }
+        // afisarea doar valorilor
+        for (String i : capitalCities.values()) {
+        System.out.println(i);
+        }
         // alta modalitate de afisare
         HashMap<String, Integer> people = new HashMap<>();
         people.put("John", 32);
@@ -71,8 +123,34 @@ public class LR_class_1812 {
         people.put("Angie", 33);
         for (String i : people.keySet()) {
             System.out.println("key: " + i + " value: " + people.get(i));
+        }
+// HashSet - fara duplicate -------------------------------------------
+
+        HashSet<Strig> cars = new HashSet<>();
+        cars.add("Volvo");
+        cars.add("BMV"); // va ramina doar unu
+        cars.add("Ford");
+        cars.add("BMV"); // va ramina doar unu
+        cars.add("Mazda");
+        System.out.println(cars);
+
+        //prezenta elementului
+        cars.contains("Mazda");
+
+        //stergerea elementului
+        cars.remove("Volvo");
+
+        //stergerea tuturor elementelor
+        cars.clear();
+
+        // numarul elementelor
+        cars.size();
+
+        afisarea elementelor
+        for (String i : cars) {
+        System.out.println(i);
         }*/
-// HashSet --------------------------------------------------------------
+
         HashSet<Integer> num = new HashSet<>();
         num.add(5);
         num.add(9);
@@ -87,8 +165,11 @@ public class LR_class_1812 {
         }
 
 // Collections---------------------------------------------------------
-
-
+/*        collections.shuffle(arr); // amesteca
+        collections.sort(arr); // sorteaza
+        collections.addall(arr, ... elementss:"1", "4", "2", "3"); // aduaga elemente din alta colectie
+        collections.fill(arr, obj:"1"); // umple
+*/
     }
 
 }
