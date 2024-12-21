@@ -60,6 +60,7 @@ public class Collections {
             if (score > 90) studentScoresMore90.put(name, score);
         });
         System.out.println("Students with score more then 90:");
+//      studentScoresMore90.forEach((name, score) -> System.out.println(name + ": " + score));
         for (Map.Entry<String, Integer> entry : studentScoresMore90.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
