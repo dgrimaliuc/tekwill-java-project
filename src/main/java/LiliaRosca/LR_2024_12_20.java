@@ -173,7 +173,7 @@ public class LR_2024_12_20 {
             person1.printInfo();
             person2.printInfo();
             person3.printInfo(); // afiseaza obiectele
-        }*/
+        }
     public static void main(String[] args) {
         // constructor cu parametrii
         Person_LR person11 = new Person_LR("David", "Ricardo", 102);
@@ -181,6 +181,12 @@ public class LR_2024_12_20 {
         person11.printInfo();
         person12.printInfo();
     }
+*/
+// HW 20.12 1. Creează o clasă numită Book cu variabile de instanță precum titlu, autor, an și preț. Creati constructorii.
+// Creati in Main 2 obiecte ale clasei Book. Creati print info and afisati informatia despre obiecte in Main.
+// LR_Book + Main_LR
 
-
+// HW 2. Definește o clasă  Student cu variabile de instanță - nume, vârstă, notă și studentID. Creati constructorii.
+// Creati in Main 2 obiecte ale clasei Student. Creati print info and afisati informatia despre obiecte in Main.
+// LR_Student + Main_LR
 }
