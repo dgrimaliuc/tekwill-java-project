@@ -151,17 +151,21 @@ public class ClassWork_20_12_2024 {
 //    }
 
     // Sau o metoda mai usoara
-//    public static double caleculateAverage(int... numbers) {
-//        double sum = 0;
-//        for (int number : numbers) {
-//            sum += number;
-//        }
-//        return sum / numbers.length;
-//    }
-//
-//    public static void main(String[] args) {
-//        var average = caleculateAverage(1, 2, 3, 4, 5, 4, 1, 3, 4, 1, 3, 4, 1);
-//        System.out.println(average);
-//    }
-//}
+    public static double caleculateAverage(int... numbers) {
+        double sum = 0;
+        for (int number : numbers) {
+            sum += number;
+        }
+        return sum / numbers.length;
+    }
+
+    public static void main(String[] args) {
+        var average = caleculateAverage(1, 2, 3, 4, 5, 4, 1, 3, 4, 1, 3, 4, 1);
+        System.out.println(average);
+    }
+}
 //--------------------------------------------------------------------------------
+// Scrie o metodă care primește doi întregi ca parametri și returnează diferența lor. (-). Afiseaza difirenta in terminal.
+
+//--------------------------------------------------------------------------------
+
