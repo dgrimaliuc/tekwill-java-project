@@ -153,5 +153,34 @@ public class LR_2024_12_20 {
         number(10);
     }*/
 
+    // OOP - din clasa Main_LR ---------------------------------------------------------------
+    /*    public static void main(String[] args) {
+            Main_LR myObj = new Main_LR(); // Obiect 1 - accesare o data
+            Main_LR myObj2 = new Main_LR(); // Obiect 2 - accesare de 2 ori
+            Main_LR myObj3 = new Main_LR(); // Obiect 3 - accesare o data
+            System.out.println(myObj.x);  // accesare o data
+            System.out.println(myObj2.x);  // accesare de 2 ori
+            System.out.println(myObj3.y);  // accesare o data
+    // modificarea valorii existente fara a modifica accesarile anterioare myObj2 va ramine cu valoarea din clasa Main_LR
+            myObj.x = 15; // acum x este 40, daca x nu ar avea valoare ar fi setarea acesteea
+            System.out.println(myObj.x);
+    // apelarea la mai multe atribute
+            System.out.println("Name: " + myObj.fname + " " + myObj.lname + ", age: " + myObj.age);
+    // Exercitii clasa
+            Person_LR person1 = new Person_LR();
+            Person_LR person2 = new Person_LR();
+            Person_LR person3 = new Person_LR();// creaza 3 obiecte ale clasei Person_LR
+            person1.printInfo();
+            person2.printInfo();
+            person3.printInfo(); // afiseaza obiectele
+        }*/
+    public static void main(String[] args) {
+        // constructor cu parametrii
+        Person_LR person11 = new Person_LR("David", "Ricardo", 102);
+        Person_LR person12 = new Person_LR("Dave", "Rich", 101);
+        person11.printInfo();
+        person12.printInfo();
+    }
+
 
 }
