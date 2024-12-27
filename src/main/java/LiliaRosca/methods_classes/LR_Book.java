@@ -1,4 +1,4 @@
-package main.java.LiliaRosca;
+package main.java.LiliaRosca.methods_classes;
 
 public class LR_Book {
     // HW 20.12 1. Creează o clasă numită Book cu variabile de instanță precum titlu, autor, an și preț. Creati constructorii.
@@ -20,5 +20,6 @@ public class LR_Book {
         System.out.println("Autorul: " + autor);
         System.out.println("Anul: " + an);
         System.out.println("Pretul: " + pret);
+        System.out.println(); // sa fie rind gol intre carti sau "\n"
     }
 }

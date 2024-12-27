@@ -1,7 +1,8 @@
-package main.java.LiliaRosca;
+package main.java.LiliaRosca.basics;
 
 //import java.util.ArrayList;
 //import java.util.HashMap;
+
 import java.util.HashSet;
 //import java.util.Scanner;
 

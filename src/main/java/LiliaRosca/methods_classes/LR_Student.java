@@ -1,4 +1,4 @@
-package main.java.LiliaRosca;
+package main.java.LiliaRosca.methods_classes;
 
 public class LR_Student {
     // HW 2. Definește o clasă  Student cu variabile de instanță - nume, vârstă, notă și studentID. Creati constructorii.
@@ -19,6 +19,6 @@ public class LR_Student {
         System.out.println("Nume: " + nume);
         System.out.println("Varsta: " + varsta);
         System.out.println("Nota: " + nota);
-        System.out.println("Identificatorul: " + studentId);
+        System.out.println("Identificatorul: " + studentId + "\n");//
     }
 }

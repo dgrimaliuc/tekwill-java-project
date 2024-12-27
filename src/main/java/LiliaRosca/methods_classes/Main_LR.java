@@ -1,4 +1,4 @@
-package main.java.LiliaRosca;
+package main.java.LiliaRosca.methods_classes;
 
 public class Main_LR {
     // class work 20.12
@@ -14,7 +14,8 @@ public class Main_LR {
         /*LR_Book book1 = new LR_Book("Title1", "Author1", 2024, 12.5);
         LR_Book book2 = new LR_Book("Title2", "Author2", 2034, 52.75);
         book1.printInfoB();
-        book2.printInfoB();*/
+        book2.printInfoB();
+        */
 
         // HW Ex. 2 LR_Student
         LR_Student student1 = new LR_Student("Nume1", 20, 8, 11);
