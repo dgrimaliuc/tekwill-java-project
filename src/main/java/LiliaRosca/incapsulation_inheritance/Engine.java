@@ -1,6 +1,7 @@
-package main.java.LiliaRosca.inheritance;
+package main.java.LiliaRosca.incapsulation_inheritance;
 
 public class Engine {
+    // Exercitii class 23.12 Ex 3
     int speed = 0;
 
     public void start() {
