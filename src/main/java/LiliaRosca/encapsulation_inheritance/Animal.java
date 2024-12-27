@@ -1,6 +1,6 @@
-package main.java.LiliaRosca.incapsulation_inheritance;
+package main.java.LiliaRosca.encapsulation_inheritance;
 
-// parent class
+// parent class for Cat
 public class Animal {
     String name;
 

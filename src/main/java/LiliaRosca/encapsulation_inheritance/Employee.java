@@ -1,4 +1,4 @@
-package main.java.LiliaRosca.incapsulation_inheritance;
+package main.java.LiliaRosca.encapsulation_inheritance;
 
 /* Creați o clasă numită „Employee” cu variabile de instanță private pentru ID-ul angajatului, nume și salariu.
  * Includeți metode getter și setter corespunzătoare pentru fiecare variabilă.

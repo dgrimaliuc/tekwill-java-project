@@ -1,4 +1,4 @@
-package main.java.LiliaRosca.incapsulation_inheritance;
+package main.java.LiliaRosca.encapsulation_inheritance;
 
 public class LR_2024_12_23 {
     public static void main(String[] args) {
@@ -117,11 +117,33 @@ public class LR_2024_12_23 {
                 super(color, year, fuelType); // mostenit de la clasa superioara
                 this.horsePower = horsePower; // variabile aditional specifica doar clasei inferioare
             }
-        }*/
-// class Animal, subclass Cat
+        }
+        // class Animal, subclass Cat
         Cat cat = new Cat();
         cat.name = "Whiskers";
         cat.eat(); // inherited from Animal
         cat.meow(); // specific to Cat
+*/
+        // Vehicle - Car
+        Car car = new Car("BMW", "Purple", 2023, 3, "Gas");
+        System.out.println(car);
+
+        // key word super - referire la clasa superioara
+        /* class Animal {
+            String name;
+
+            public void eat() {
+                System.out.println("The animal is eatintg.");
+            }
+         }
+
+         class Cat extends Animal {
+            String colour;
+
+            public void eat() {
+                super.eat(); // invokes the method from superclass, constructor or anything else from the parent class
+                this.colour = colour;
+            }
+         }     */
     }
 }

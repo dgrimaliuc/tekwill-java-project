@@ -1,4 +1,4 @@
-package main.java.LiliaRosca.incapsulation_inheritance;
+package main.java.LiliaRosca.encapsulation_inheritance;
 
 public class LR_Fruit {
     // Exercitii class 23.12 Ex 1

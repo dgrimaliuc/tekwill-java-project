@@ -1,4 +1,4 @@
-package main.java.LiliaRosca.incapsulation_inheritance;
+package main.java.LiliaRosca.encapsulation_inheritance;
 
 // class Student - private pentru ID-ul studentului, nume și notă.
 // Scrieți metode getter și setter pentru fiecare variabilă.
