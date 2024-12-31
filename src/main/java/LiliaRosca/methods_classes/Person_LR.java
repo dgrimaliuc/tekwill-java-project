@@ -1,4 +1,4 @@
-package main.java.LiliaRosca;
+package main.java.LiliaRosca.methods_classes;
 
 public class Person_LR {
     // atribuirea directa a valorilor

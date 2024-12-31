@@ -1,4 +1,4 @@
-package main.java.LiliaRosca;
+package main.java.LiliaRosca.basics;
 
 public class testLR {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package main.java.LiliaRosca;
+package main.java.LiliaRosca.methods_classes;
 
 public class LR_2024_12_20 {
     // 1.1 new method
