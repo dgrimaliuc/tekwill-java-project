@@ -1,0 +1,7 @@
+Home Work
+
+1Creează o clasă abstractă numită “Employee” cu o metodă abstractă numită “calculateSalary”. Creează două subclase ale clasei Employee, cum ar fi “FullTimeEmployee” și “PartTimeEmployee”, și implementează metoda “calculateSalary” diferit în fiecare subclasă.
+
+1Creează o clasă numită “Animal” cu o metodă numită “makeSound”. Implementează subclase precum “Dog”, “Cat” și “Bird” care suprascriu metoda “makeSound” pentru a produce sunete diferite.
+
+1Proiectează o ierarhie de clase pentru diferite forme geometrice, cum ar fi “Shape” ca clasă de bază și subclase precum “Circle”, “Square” și “Triangle”. Include o metodă numită “calculateArea” în fiecare subclasă care calculează aria formei respective.
