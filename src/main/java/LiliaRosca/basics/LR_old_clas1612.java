@@ -1,4 +1,4 @@
-package main.java.LiliaRosca;
+package main.java.LiliaRosca.basics;
 
 public class LR_old_clas1612 {
     public static void main(String[] args) {
@@ -40,7 +40,8 @@ public class LR_old_clas1612 {
 */
         // 4. afișează un array de tip String, definit în cadrul programului
         String[] orase = {"London", "Paris", "Dublin", "Madrid", "Rome"};
-        for (String i : orase) { System.out.println(i);
+        for (String i : orase) {
+            System.out.println(i);
         }
 
 

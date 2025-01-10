@@ -1,13 +1,11 @@
-package main.java.LiliaRosca;
+package main.java.LiliaRosca.basics;
 
-import java.util.Map;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
+import java.util.Map;
 
 public class LR_1812_HW {
     public static void main(String[] args) {
-    // 1. Liste - Creează un array ArrayList de șiruri de caractere și adaugă câteva fructe în acesta, apoi afișează lista pe ecran.
+        // 1. Liste - Creează un array ArrayList de șiruri de caractere și adaugă câteva fructe în acesta, apoi afișează lista pe ecran.
 /*        ArrayList<String> fructe = new ArrayList<>();
         fructe.add("Apple");
         fructe.add("Peach");
@@ -43,7 +41,7 @@ public class LR_1812_HW {
         countryMap.get("England");
         System.out.println(countryMap.get("CAN"));
  */
-    //4. Optional: Având două Map-uri care conțin numele studenților ca chei și scorurile corespunzătoare ca valori,
+        //4. Optional: Având două Map-uri care conțin numele studenților ca chei și scorurile corespunzătoare ca valori,
         //scrie un program care găsește studenții care au obținut mai mult de 90 și stochează numele și scorurile lor într-un nou Map.
         Map<String, Integer> studentScores1 = new HashMap<>();
         studentScores1.put("Evelina", 85);
@@ -55,12 +53,12 @@ public class LR_1812_HW {
         studentScores2.put("Frank", 81);
         studentScores2.put("Alice", 91); // Nume duplicat cu scor diferit
         studentScores2.put("George", 87);
-    // Combinăm cele două Map-uri într-unul singur
+        // Combinăm cele două Map-uri într-unul singur
         Map<String, Integer> combinedScores = new HashMap<>(studentScores1);
         for (Map.Entry<String, Integer> entry : studentScores2.entrySet()) {
             String studentName = entry.getKey();
             Integer score = entry.getValue();
-    // Dacă studentul există deja, alegem scorul mai mare
+            // Dacă studentul există deja, alegem scorul mai mare
             if (combinedScores.containsKey(studentName)) {
                 Integer existingScore = combinedScores.get(studentName);
                 if (score > existingScore) {
@@ -70,14 +68,14 @@ public class LR_1812_HW {
                 combinedScores.put(studentName, score);
             }
         }
-    // Cream un Map pentru a stoca studenții cu scor peste 90
+        // Cream un Map pentru a stoca studenții cu scor peste 90
         Map<String, Integer> topStudents = new HashMap<>();
         for (Map.Entry<String, Integer> entry : combinedScores.entrySet()) {
             if (entry.getValue() > 90) {
                 topStudents.put(entry.getKey(), entry.getValue());
             }
         }
-    // Afișăm rezultatele
+        // Afișăm rezultatele
         System.out.println("Studenții cu scor peste 90 sunt: ");
         for (Map.Entry<String, Integer> entry : topStudents.entrySet()) {
             System.out.println(entry.getKey() + " - " + entry.getValue());

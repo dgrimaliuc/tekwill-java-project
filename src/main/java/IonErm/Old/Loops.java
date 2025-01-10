@@ -1,4 +1,4 @@
-package main.java.IonErm;
+package main.java.IonErm.Old;
 
 public class Loops {
     public static void main(String[] args) {
@@ -55,7 +55,7 @@ public class Loops {
         System.out.println(sum);
 
 //      Calculează suma numerelor de la 1 la 100 folosind o buclă for.
-        double sum1 = 0;
+        int sum1 = 0;
         for (int i = 0; i <= 100; i++) {
             sum1 += i;
         }
