@@ -57,6 +57,7 @@ public class Main {
 //    }
 
     //-----------------------------------------------
+    // Codu a dat eroare, trebuie de scris in 2 clase diferite.
     public class MyException extends Exception {
         public MyException() {
             super(); // Cheama constructorul superclass
