@@ -1,4 +1,4 @@
-package main.java.georgeVinaga;
+package main.java.georgeVinaga.Learn_11_12_2024;
 import java.util.Scanner;
 
 public class HomeWork_11_Dec_2024 {
