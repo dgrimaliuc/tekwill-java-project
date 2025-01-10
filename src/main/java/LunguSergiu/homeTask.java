@@ -1,6 +1,6 @@
 package main.java.LunguSergiu;
 
-public class taskHomeClass {
+public class homeTask {
     public static void main(String[] args) {
 //       Calculează suma numerelor de la 55 la 111 folosind o buclă do-while.
         int count = 55;
@@ -41,4 +41,4 @@ public class taskHomeClass {
 //            System.out.println(s);
 //        }
 //    }
-//}
+//

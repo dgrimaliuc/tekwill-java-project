@@ -1,4 +1,4 @@
-package main.java.iuliaNamolovan;
+package main.java.iuliaNamolovan.hm1;
 
 public class hm1_2 {
     public static void main(String[] args) {

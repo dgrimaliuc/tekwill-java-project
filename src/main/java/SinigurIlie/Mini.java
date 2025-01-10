@@ -1,11 +1,9 @@
-package main.java.IonErm;
+package main.java.SinigurIlie;
 
-public class Learn {
+public class Mini {
     public static void main(String[] args) {
-        int myAge = 20;
+        int myAge = 25;
         int votingAge = 18;
         System.out.println(myAge >= votingAge);
-
-        System.out.println("Heelo folks!");
     }
 }
