@@ -15,8 +15,11 @@ public class BankAccount {
     private String accountHolderName;
 
     BankAccount() {
-        this(accountId:0, balance:0, accountHolderName: "");
+        accountId = 0;
+        balance = 0;
+        accountHolderName = "";
     }
+
     BankAccount(int accountId,double balance, String accountHolderName) {
         this.accountId = accountId;
         this.balance = balance;
