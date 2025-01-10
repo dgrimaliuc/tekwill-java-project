@@ -16,7 +16,7 @@ public class DepozitAccount extends BankAccount{
         this.soldMinim = soldMinim;
     }
     public void print() {
-        super.print(); // Adic[ printeaza mai intii printurile din prima clasa BankAccount
+        super.print(); // Adica printeaza mai intii printurile din prima clasa BankAccount
         System.out.println("Rata: " + rata);
         System.out.println("Sold Minim: " + soldMinim);
     }
