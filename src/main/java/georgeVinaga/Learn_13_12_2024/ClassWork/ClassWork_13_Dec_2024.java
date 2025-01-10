@@ -1,4 +1,4 @@
-package main.java.georgeVinaga.Learn_13_12_2024;
+package main.java.georgeVinaga.Learn_13_12_2024.ClassWork;
 
 import java.util.Scanner;
 

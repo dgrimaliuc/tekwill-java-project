@@ -1,4 +1,4 @@
-package main.java.georgeVinaga.Learn_20_12_2024;
+package main.java.georgeVinaga.Learn_20_12_2024.ClassWork;
 
 // Vom vorbi despre 1.Metode, 2.Clase, 3.Obiecte, 4.this
 

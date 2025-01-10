@@ -1,4 +1,4 @@
-package main.java.georgeVinaga.Learn_16_12_2024;
+package main.java.georgeVinaga.Learn_16_12_2024.HomeWork;
 
 public class HomeWork_16_Dec_2024 {
     public void main(String[] args) {

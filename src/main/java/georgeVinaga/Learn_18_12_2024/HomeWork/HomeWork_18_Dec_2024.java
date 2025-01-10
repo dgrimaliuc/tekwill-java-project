@@ -1,4 +1,4 @@
-package main.java.georgeVinaga.Learn_18_12_2024;
+package main.java.georgeVinaga.Learn_18_12_2024.HomeWork;
 
 import java.util.ArrayList;
 import java.util.HashMap;

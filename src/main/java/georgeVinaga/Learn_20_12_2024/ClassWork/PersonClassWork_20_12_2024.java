@@ -1,4 +1,4 @@
-package main.java.georgeVinaga.Learn_20_12_2024;
+package main.java.georgeVinaga.Learn_20_12_2024.ClassWork;
 
 public class PersonClassWork_20_12_2024 {
 //    String firstName = "Adam";
