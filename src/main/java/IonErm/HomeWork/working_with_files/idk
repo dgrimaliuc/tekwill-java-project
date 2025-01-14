@@ -1,0 +1,19 @@
+Home Work
+Titlu sarcină:
+Scrie un program Java pentru gestionarea intrărilor utilizatorului și analiza fișierelor text
+Descrierea sarcinii:
+	1.	Creează un program care:
+	•	Solicită utilizatorului să introducă cuvinte de la tastatură.
+	•	Continuă să accepte intrări până când utilizatorul introduce cuvântul „done”.
+	•	Salvează toate cuvintele introduse într-un fișier text.
+	2.	După salvarea datelor în fișier:
+	•	Citește fișierul text creat.
+	•	Calculează și afișează următoarele statistici:
+
+	•	Numărul total de linii din fișier.
+	•	Numărul total de cuvinte.
+	•	Numărul total de caractere.
+Cerințe suplimentare:
+	•	Utilizează blocuri try-with-resources pentru gestionarea resurselor.
+	•	Gestionează excepțiile care pot apărea, cum ar fi fișierul inexistent sau erorile de intrare/ieșire.
+	•	Asigură-te că programul funcționează corect cu fișiere mari și texte multiline.
