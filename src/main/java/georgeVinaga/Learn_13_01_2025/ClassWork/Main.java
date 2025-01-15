@@ -1,7 +1,9 @@
 package main.java.georgeVinaga.Learn_13_01_2025.ClassWork;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
@@ -9,6 +11,45 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
+    //------------------------------------------------------
+//    public static void main(String[] args) {
+//        try {
+//            File myObj = new File("src/main/java/georgeVinaga/Learn_13_01_2025/ClassWork/resources/filename.txt");
+//
+//            // Create a file
+//            if (myObj.createNewFile()) {
+//                System.out.println("File created: " + myObj.getName());
+//            } else {
+//                System.out.println("File already exists."); // daca fisieru exista nul va crea cu acelasi nume.
+//            }
+//        } catch (IOException e) {
+//            System.out.println("An error occurred.");
+//            e.printStackTrace();
+//        }
+//    }
+    //------------------------------------------------------
+    // Metoda mai usoara de a crea un fisier.
+//    public static void main(String[] args) {
+//        try {
+//            Files.createFile(Path.of("src/main/java/georgeVinaga/Learn_13_01_2025/ClassWork/resources/filename2.txt"));
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+//    }
+    //------------------------------------------------------
+    // Obțineți informații despre fișier
+//    public static void main(String[] args) {
+//        File myObj = new File("src/main/java/georgeVinaga/Learn_13_01_2025/ClassWork/resources/filename.txt");
+//        if (myObj.exists()) {
+//            System.out.println("File name: " + myObj.getName());
+//            System.out.println("Absolute path: " + myObj.getAbsolutePath());
+//            System.out.println("Writeable: " + myObj.canWrite());
+//            System.out.println("Readable: " + myObj.canRead());
+//            System.out.println("File size in bytes " + myObj.length());
+//        } else {
+//            System.out.println("The file dowse not exist.");
+//        }
+//    }
     //------------------------------------------------------
 //    public static void main(String[] args) {
 //        File file = new File("src/main/java/georgeVinaga/Learn_13_01_2025/ClassWork/resources/index.txt");
@@ -19,7 +60,60 @@ public class Main {
 //        }
 //    }
     //------------------------------------------------------
-    //Creează un fișier „resources.txt” dacă nu există.
+    //Delete a file
+//    public static void main(String[] args) {
+//        File file = new File("src/main/java/georgeVinaga/Learn_13_01_2025/ClassWork/resources/index.txt");
+//        if (file.delete()) { // file.delete sterge fisieru
+//            System.out.println("File deleted successfully");
+//        } else {
+//            System.out.println("File can not be deleted");
+//        }
+//    }
+    //------------------------------------------------------
+    // Creează un fișier „resources.txt” in directoriul „resources”.
+//    public static void main(String[] args) {
+//        File file = new File("src/main/java/georgeVinaga/Learn_13_01_2025/ClassWork/resources/resource1.txt");
+//        try {
+//            if (file.createNewFile()) {
+//                System.out.println("File created successfully");
+//            } else {
+//                System.out.println("File already exists");
+//            }
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+//    }
+    //------------------------------------------------------
+    // Scriem într-un fișier cu OutputStream
+//    public static void writeToFile() {
+//        String filePath = "src/main/java/georgeVinaga/Learn_13_01_2025/ClassWork/resources/resource1.txt";
+//        String content = "Hello, World";
+//        try (OutputStream outputStream = new FileOutputStream(filePath)) {
+//            // Convertim conținutul într-un tablou de octeți și îl scriem în fișier
+//            byte[] bytes = content.getBytes();
+//            outputStream.write(bytes);
+//            System.out.println("Data written to the file successfully.");
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//        writeToFile(); // Apelăm metoda pentru a scrie datele în fișier
+//    }
+    //------------------------------------------------------
+    // Scriem date in fisier folosind metoda List
+//    public static void main(String[] args) {
+//        var fileName = "src/main/java/georgeVinaga/Learn_13_01_2025/ClassWork/resources/resource1.txt";
+//        try {
+//            Files.write(Path.of(fileName), List.of("Hello, World 111", "Hello, World 2222")); // Daca in fisier este ceva el va rescrie de la inceput, astfel datele anterioare se vor pierde.
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+//    }
+    //------------------------------------------------------
+    //Creează un fișier „resources.txt” dacă nu există, folosind Scanner.
+    // Creează un program care cere utilizatorului să introducă un text și salvează-l într-un fișier text.
 //    public static void main(String[] args) {
 //        var filename = "src/main/java/georgeVinaga/Learn_13_01_2025/ClassWork/resources/resource1.txt";
 //        System.out.println("Enter text: ");
@@ -33,12 +127,13 @@ public class Main {
 //            }
 //            Files.writeString(file.toPath(), userInput);
 //        } catch (IOException e) {
-//            throw new RuntimeException(e);
+//            throw new RuntimeExceptio n(e);
 //        }
 //    }
     //------------------------------------------------------
     /* Creează un fișier „resources.txt” dacă nu există.
-       Creează un program care cere utilizatorului să introducă un text și salvează-l într-un fișier text. */
+       Creează un program care cere utilizatorului să introducă un text și salvează-l într-un fișier text.
+       Propramu se inchide dupa ce userul va scrie cuvindu „done” */
 //    public static void main(String[] args) {
 //        var fileName = "src/main/java/georgeVinaga/Learn_13_01_2025/ClassWork/resources/resource2.txt";
 //        Scanner sc = new Scanner(System.in);
@@ -54,13 +149,14 @@ public class Main {
 //                System.out.println("Enter text: ");
 //                userInput = sc.nextLine();
 //                Files.writeString(file.toPath(), userInput + "\n", StandardOpenOption.APPEND);
-//
 //            } while (!userInput.equals("done"));
-//
 //        } catch (IOException e) {
 //            throw new RuntimeException(e);
 //        }
 //    }
+
+    //------------------------------------------------------
+
 
     //------------------------------------------------------
     /* Creează un program care cere utilizatorului să introducă un text și salvează-l într-un fișier text.
