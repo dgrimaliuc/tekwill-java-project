@@ -9,7 +9,6 @@ Descrierea sarcinii:
 	2.	După salvarea datelor în fișier:
 	•	Citește fișierul text creat.
 	•	Calculează și afișează următoarele statistici:
-
 	•	Numărul total de linii din fișier.
 	•	Numărul total de cuvinte.
 	•	Numărul total de caractere.

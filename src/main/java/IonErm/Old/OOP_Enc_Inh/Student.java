@@ -1,4 +1,4 @@
-package main.java.IonErm.ClassWork;
+package main.java.IonErm.Old.OOP_Enc_Inh;
 
 public class Student {
     private int id;

@@ -5,31 +5,36 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.StandardOpenOption;
 import java.util.List;
 import java.util.Scanner;
 
 public class Read {
-    public static void main(String[] args) {
-//        try {
-//            List<String> lines = Files.readAllLines(Path.of("resources/fileTest.txt"));
-//            for (String line : lines) {
-//                System.out.println(line);
-//            }
-//        } catch (IOException e) {
-//            throw new RuntimeException();
-//        }
+    static String myFile = "resources/fileTest.txt";
 
-            try {
-                File file = new File("resources/fileTest.txt");
-                Scanner reader = new Scanner(file);
-                while (reader.hasNextLine()) {
-                    String data = reader.nextLine();
-                    System.out.println(data);
-                }
-                reader.close();
-            } catch (FileNotFoundException e) {
-                System.out.println("Something wrong...");
+    public static void readerWithList() {
+        try {
+            List<String> lines = Files.readAllLines(Path.of(myFile));
+            for (String line : lines) {
+                System.out.println(line);
             }
+        } catch (IOException e) {
+            throw new RuntimeException();
+        }
+    }
+
+    public static void main(String[] args) {
+        try {
+            File file = new File(myFile);
+            Scanner reader = new Scanner(file);
+            while (reader.hasNextLine()) {
+                String data = reader.nextLine();
+                System.out.println(data);
+            }
+            reader.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("Something wrong...");
+        }
+
+        readerWithList();
     }
 }
