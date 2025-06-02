@@ -1,2 +1,3 @@
 # tekwill-qa-automation
-This repo is used to learn about OOP in Java and to create an automation framework 
+
+This repository is intended for learning about object-oriented programming (OOP) in Java. 
