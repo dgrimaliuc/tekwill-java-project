@@ -1,10 +1,10 @@
 name: Java Build
 
-# Trigger the workflow only on pull request events targeting the master branch
+# Trigger the workflow only on pull request events targeting the main branch
 on:
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   build:
