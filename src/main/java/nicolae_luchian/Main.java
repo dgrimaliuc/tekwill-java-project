@@ -1,5 +1,6 @@
 package main.java.nicolae_luchian;
 
+
 import java.util.Scanner;
 
 public class Main {
@@ -83,4 +84,5 @@ public class Main {
         }
     }
 }
+
 
