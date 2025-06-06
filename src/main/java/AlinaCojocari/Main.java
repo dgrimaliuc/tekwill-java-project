@@ -22,6 +22,7 @@ public class Main {
         } else {
             System.out.println("Numerele sunt egale");
         }
+
         // 2. Verificare varsta
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduceti varsta: ");
