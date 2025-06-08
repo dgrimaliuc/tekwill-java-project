@@ -4,7 +4,7 @@ public class whileCycle {
     public static void main(String[] args) {
         int i = 55;
         int sum = 0;
-        while (i>= 111) {
+        while (i <= 111) {
             sum += i;
             i++;
         }
