@@ -31,7 +31,6 @@ public class ArraysCycle {
                     countPozitive++;
                 }
             }
-
             System.out.println("Numărul de elemente pozitive este: " + countPozitive);
         }
     }
