@@ -5,13 +5,10 @@ import java.util.Scanner;
 public class ArraysCycle {
       //Scrie un program Java pentru a verifica dacă un element există într-un array de numere întregi.
       //Scrie un program Java pentru a număra numărul de elemente pozitive într-un array de numere întregi.
-
         public static void main(String[] args) {
             int[] numere = {3, -7, 12, -5, 0, 9, 18, -2, 4, -10};
 
             Scanner sc = new Scanner(System.in);
-
-            // Verificare dacă un număr există
             System.out.print("Introdu un număr pentru verificare: ");
             int cautat = sc.nextInt();
 
@@ -28,8 +25,6 @@ public class ArraysCycle {
             } else {
                 System.out.println("Numărul " + cautat + " NU există în array.");
             }
-
-            // Numărare elemente pozitive
             int countPozitive = 0;
             for (int num : numere) {
                 if (num > 0) {
