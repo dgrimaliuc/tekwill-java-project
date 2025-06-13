@@ -1,6 +1,6 @@
-package main.java.lilia_toma;
+package main.java.cristina;
 
-public class Main2 {
+public class Main {
     public static void main(String[] args) {
 
     }
