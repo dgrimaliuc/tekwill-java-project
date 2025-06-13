@@ -32,6 +32,10 @@ public class Person {
                 '}';
     }
 
+    String getFullName() {
+        return firstName + " " + lastName;
+    }
+
     void printInfo() {
         System.out.println("First Name: " + firstName);
         System.out.println("Last Name: " + lastName);
