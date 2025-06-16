@@ -19,6 +19,11 @@ void printInfo(){
         System.out.println("Age " +age);
     }
 
+    String GetFullName(){
+        return firstName + " " +lastName;
+    }
+
+
     @Override
     public String toString() {
         return "Person{" +

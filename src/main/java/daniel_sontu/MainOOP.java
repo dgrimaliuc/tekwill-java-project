@@ -3,8 +3,14 @@ package main.java.daniel_sontu;
 public class MainOOP {
     public static void main(String[] args) {
 
-        Student student1 = new Student("Daniel", 25, 10, 98765);
-        System.out.println(student1);
+
+
+        Person person = new Person("Daniel", "Sontu", 25);
+        String fullName = person.GetFullName();
+        System.out.println("Full name is: " +fullName);
+
+//        Student student1 = new Student("Daniel", 25, 10, 98765);
+//        System.out.println(student1);
 
 //        Book book1 = new Book("Amintiri din Copilarie", "Nicolae Dabija", 1989, 200.9);
 //        Book book2 = new Book("Power", "Rober Greene", 1948, 320.2);
