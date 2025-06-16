@@ -40,7 +40,7 @@ public class Collections {
         abbreviation.put("GER", "Germany");
         abbreviation.put("MD", "Moldova");
         for (String i : abbreviation.keySet()) {
-            System.out.println("Abbreviation: " + i + ", Contry name: " + abbreviation.get(i));
+            System.out.println("Abbreviation: " + i + ", Country name: " + abbreviation.get(i));
         }
 
         // 5. You have 2 Maps with list of students (key) and their scores (value).
