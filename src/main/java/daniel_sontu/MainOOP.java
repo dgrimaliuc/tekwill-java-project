@@ -1,31 +1,26 @@
 package main.java.daniel_sontu;
+import main.java.daniel_sontu.Inheritance.Circle;
+import main.java.daniel_sontu.Inheritance.Shape;
+import main.java.daniel_sontu.Inheritance.Square;
+import main.java.daniel_sontu.Inheritance.Triangle;
+
+import java.util.List;
 
 public class MainOOP {
+
     public static void main(String[] args) {
 
 
+        List<Shape> shapes = List.of(
+                new Circle (5.9),
+                new Square(10),
+                new Triangle(5, 7)
+                );
 
-        Person person = new Person("Daniel", "Sontu", 25);
-        String fullName = person.GetFullName();
-        System.out.println("Full name is: " +fullName);
-
-//        Student student1 = new Student("Daniel", 25, 10, 98765);
-//        System.out.println(student1);
-
-//        Book book1 = new Book("Amintiri din Copilarie", "Nicolae Dabija", 1989, 200.9);
-//        Book book2 = new Book("Power", "Rober Greene", 1948, 320.2);
-//        book1.printinfo();
-//        book2.printinfo();
-
-
-//        Person person = new Person("Daniel", "Sontu", 25);
-//        Person person2 = new Person("Robert", "Abraham", 50);
-//        Person person3 = new Person("James", "Rodriguez", 36);
-//
-//        person.printInfo();
-//        person2.printInfo();
-//        person3.printInfo();
-//        System.out.println(book1);
-//        System.out.println(book2);
+        for(Shape shape : shapes){
+            System.out.println("Shape" +shape.getClass().getSimpleName()+ "Area: " +shape.calculateArea());
+        }
     }
 }
+
+
