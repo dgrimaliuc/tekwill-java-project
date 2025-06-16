@@ -8,6 +8,16 @@ public class Student {
     double grade;
     double studentID;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    static String university = "University of Bucharest";
+
     Student(String name, int age, double grade) {
         studentID = Math.random();
         this.name = name;
@@ -20,6 +30,11 @@ public class Student {
         System.out.println("Student Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("Grade: " + grade);
+        System.out.println("University: " + university);
         System.out.println("-----------------------------");
+    }
+
+    static void myStaticMethod() {
+
     }
 }

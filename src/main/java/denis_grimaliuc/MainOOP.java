@@ -1,18 +1,22 @@
 package main.java.denis_grimaliuc;
 
+import main.java.denis_grimaliuc.inheritance.*;
+
+import java.util.List;
+
 public class MainOOP {
 
 
     public static void main(String[] args) {
-        ShoppingCart cart = new ShoppingCart();
-        cart.addToCart("Apple", 1.0);
-        cart.addToCart("Banana", 0.5);
-        cart.addToCart("Orange", 0.75);
-        cart.addToCart("Milk", 1.25);
-        cart.buyAll();
+        List<Shape> shapes = List.of(
+                new Circle(5.9),
+                new Rectangle(4.5, 3.2),
+                new Square(3.0),
+                new Triangle(6.0, 4.0)
+        );
 
-
-        cart.buyAll();
-
+        for (Shape shape : shapes) {
+            System.out.println("Shape: " + shape.getClass().getSimpleName() + ", Area: " + shape.calculateArea());
+        }
     }
 }
