@@ -17,8 +17,6 @@ public class Employee {
         this.salary = salary;
     }
 
-    private double salary;
-
     public double getId() {
         return id;
     }
