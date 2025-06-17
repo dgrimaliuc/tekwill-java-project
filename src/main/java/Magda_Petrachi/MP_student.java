@@ -2,18 +2,20 @@ package main.java.Magda_Petrachi;
 
 public class MP_student {
     private String name;
-    int age;
+    private int age;
     private double nota;
     private int studentID;
 
-//    public MP_Student(String name, int age, double nota, int studentID) {
-//        this.name = name;
-//        this.age = age;
-//        this.nota = nota;
-//        this.studentID = studentID;
-//        System.out.println("Student" + name);
-//    }
+    // Constructor
+    public MP_student(String name, int age, double nota, int studentID) {
+        this.name = name;
+        this.age = age;
+        this.nota = nota;
+        this.studentID = studentID;
+        System.out.println("Student " + name);
+    }
 
+    // Getter și setter pentru name
     public String getName() {
         return name;
     }
@@ -22,33 +24,36 @@ public class MP_student {
         this.name = name;
     }
 
+    // Getter și setter pentru age
     public int getAge() {
         return age;
     }
 
-    public int setAge() {
+    public void setAge(int age) {
         this.age = age;
     }
 
-    public Double getNote() {
+    // Getter și setter pentru nota
+    public double getNota() {
         return nota;
     }
 
-    public double setNota() {
+    public void setNota(double nota) {
         this.nota = nota;
     }
 
+    // Getter și setter pentru studentID
     public int getStudentID() {
         return studentID;
     }
 
-    public int setStudentID() {
+    public void setStudentID(int studentID) {
         this.studentID = studentID;
     }
 
     @Override
     public String toString() {
-        return "MP_Student{" +
+        return "MP_student{" +
                 "studentID=" + studentID +
                 ", nota=" + nota +
                 ", age=" + age +

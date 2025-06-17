@@ -1,10 +1,10 @@
 package main.java.Magda_Petrachi.mostenire;
 
-public class MP_Student extends MP_person {
+public class MP_Students extends MP_person {
     int studentID;
     Double nota;
 
-    public MP_Student(String nume, String adresa, int varsta, int studentID, Double nota) {
+    public MP_Students(String nume, String adresa, int varsta, int studentID, Double nota) {
         super(nume, adresa, varsta);
         this.studentID = studentID;
         this.nota = nota;
