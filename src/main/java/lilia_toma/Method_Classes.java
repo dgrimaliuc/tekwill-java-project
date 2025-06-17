@@ -1,6 +1,6 @@
 package main.java.lilia_toma;
 
-public class Method_Classes {
+//public class Method_Classes {
 
 //    static int add5(int x) {
 //        return x + 5;
@@ -44,11 +44,11 @@ public class Method_Classes {
 //    }
 //
 //    public static void main(String[] args) {
-////        checkAge(20);
-////        checkAge(10);
-////        checkAge(0);
-////        checkAge(1);
-////        checkAge(50);
+/// /        checkAge(20);
+/// /        checkAge(10);
+/// /        checkAge(0);
+/// /        checkAge(1);
+/// /        checkAge(50);
 //
 //        /**sau alta modalitate de verificare a varstelor la psvm*/
 //        int[] ages = {10, 20, 30, 40, 50};
@@ -186,16 +186,16 @@ public class Method_Classes {
 //}
 //---------------------------------
 
-    /**
-     * Exercitii OOP.
-     * ex.1 Creeaza o clasa "Person" cu 3 campuri:
-     * - firstName = "Adam"
-     * - lastName = "Smith"
-     * - age = 32
-     * ex.2 Creeaza 3 obiecte ale clasei Person.
-     * ex.3 Creeaza o metoda prinInfo in interiorul clasei.
-     * ex.4 Afiseaza toate obiectele.
-     */
+/**
+ * Exercitii OOP.
+ * ex.1 Creeaza o clasa "Person" cu 3 campuri:
+ * - firstName = "Adam"
+ * - lastName = "Smith"
+ * - age = 32
+ * ex.2 Creeaza 3 obiecte ale clasei Person.
+ * ex.3 Creeaza o metoda prinInfo in interiorul clasei.
+ * ex.4 Afiseaza toate obiectele.
+ */
 //    public static void main(String[] args) {
 
 //        Person person = new Person();
@@ -226,7 +226,7 @@ public class Method_Classes {
 //        person3.printInfo();
 //    }
 //}
-    /// /--------constructori----------
+/// /--------constructori----------
 //        Person person1 = new Person("Denis", "Grimaliuc", 26);
 //        Person person2 = new Person("Iurii", "Smith", 35);
 //
@@ -235,11 +235,11 @@ public class Method_Classes {
 //    }
 //}
 
-    /**
-     * ex.1 Creeaza o clasa numita Book cu variabile de instanta
-     * precum titlul, autor, an si pret.
-     */ //variabilele au fost create in clasa Book,
-    //aici cream obiectul
+/**
+ * ex.1 Creeaza o clasa numita Book cu variabile de instanta
+ * precum titlul, autor, an si pret.
+ */ //variabilele au fost create in clasa Book,
+//aici cream obiectul
 //    public static void main(String[] args) {
 //        Book book1 = new Book("1984", "George Orwell", 1949, 15.99);
 //        Book book2 = new Book("To Kill a Mockingbird", "Harper Lee", 1960, 10.99);
@@ -255,10 +255,10 @@ public class Method_Classes {
 //    }
 //}
 
-    /**
-     * ex.2 Defineste o clasa numita Student cu variabile de instanta cum
-     * ar fi nume, varsta, nota si studentID.
-     */
+/**
+ * ex.2 Defineste o clasa numita Student cu variabile de instanta cum
+ * ar fi nume, varsta, nota si studentID.
+ */
 //    public static void main(String[] args) {
 //        Student student = new Student();
 //        student.printInfo();
@@ -288,9 +288,9 @@ public class Method_Classes {
 //    }
 //}
 
-    /**
-     * Creeaza o clasa numita Fruit....
-     */
+/**
+ * Creeaza o clasa numita Fruit....
+ */
 //    public static void main(String[] args) {
 //        Fruit apple = new Fruit("Apple", "Red", 95);
 //        Fruit banana = new Fruit("Banana", "Yellow", 105);
@@ -303,9 +303,9 @@ public class Method_Classes {
 //    }
 //}
 
-    /**
-     * Creeaza o clasa numita Animals.....
-     */
+/**
+ * Creeaza o clasa numita Animals.....
+ */
 //    public static void main(String[] args) {
 //        Animal dog = new Animal("Gavrik", "Dog", 4, "Bark");
 //        Animal cat = new Animal("Murka", "Cat", 4, "Meow");
@@ -316,7 +316,7 @@ public class Method_Classes {
 //        bird.makeSound();
 //    }
 //}
-    /**Creeaza o clasa bank cu variabile.....*/
+/**Creeaza o clasa bank cu variabile.....*/
 //    public static void main(String[] args) {
 //        Bank bank = new Bank();
 //
@@ -329,9 +329,9 @@ public class Method_Classes {
 //    }
 //}
 
-    /**
-     * Creeaza o clasa MusicPlayer cu variabile precum.....
-     */
+/**
+ * Creeaza o clasa MusicPlayer cu variabile precum.....
+ */
 //    public static void main(String[] args) {
 //        MusicPlayer player = new MusicPlayer();
 //        player.playSong("Song 1");
@@ -348,9 +348,9 @@ public class Method_Classes {
 //    }
 //}
 
-    /**
-     * Creaza o clasa ShoppingCard......
-     */
+/**
+ * Creaza o clasa ShoppingCard......
+ */
 //    public static void main(String[] args) {
 //        ShoppingCard card = new ShoppingCard();
 //        card.addToCard("Apple", 1.0);
@@ -361,13 +361,32 @@ public class Method_Classes {
 //        card.buyAll();
 //    }
 //}
-    //-----practica Encapsulation------
-    public static void main(String[] args) {
-        Bank bank = new Bank();
-        bank.setBalance(100.1);
-        System.out.println(bank.getBalance());
-    }
-}
+//-----practica Encapsulation------
+//    public static void main(String[] args) {
+//        Bank bank = new Bank();
+//        bank.setBalance(100.1);
+//        System.out.println(bank.getBalance());
+//    }
+//}
+//    public static void main(String[] args) {
+//        System.out.println("--Teste Valide--");
+//        if (id > 100) {
+//            Student student1 = new Student(101, "Ana Maria", 8.5);
+//            System.out.println(student1);
+//
+//            student1.setId(205);
+//            student1.setName("Ion Popescu");
+//            student1.setNote(7.0);
+//            System.out.println(student1);
+//        } else {
+//            System.out.println("Eroare la test valid: " + Student);
+//        }
+//    }
+//} ----?????
+
+////----car-----
+
+
 
 
 

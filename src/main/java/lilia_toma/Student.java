@@ -23,36 +23,53 @@ public class Student {
      * pentru fiecare variabila. Setter-ul ar trebui sa verifice valoarea
      * inainte de a o seta.
      */
-    private double Id;
-    private String Name;
-    private double Note;
+    private int id;
+    private String name;
+    private double note;
 
-    public double getId() {
-        return Id;
+    public Student(int id, String name, double note) {
+        setId(id);
+        setName(name);
+        setNote(note);
     }
 
-    public void setId(double Id) {
-        if (Id >= 100) {
-            this.Id = Id;
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int idd) {
+        if (id >= 100 && id <= 200) {
+            this.id = id;
         } else {
             System.out.println("Nu exista un student cu asa ID.");
         }
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-//        if
-        this.Name = name;
+        if (name != null && name.length() >= 3 && name.length() <= 30) {
+            this.name = name;
+        } else {
+            System.out.println("Numele este invalid!");
+        }
     }
 
     public double getNote() {
-        return Note;
+        return note;
     }
 
-    public void setNote(double Note) {
-        this.Note = Note;
+    public void setNote(double note) {
+        if (note <= 10 && note >= 7) {
+            this.note = note;
+        } else {
+            System.out.println("Nota nu este trecatoare.");
+        }
+    }
+
+    public String toString() {
+        return "Student [ID:" + id + ", Nume: " + name + ", Nota: " + note + "]";
     }
 }
