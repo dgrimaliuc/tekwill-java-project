@@ -15,7 +15,8 @@ public class Person {
 //        System.out.println("Age: " + age);
 //    }
 //}
-/// /-------Metoda toString-----Menu-Code-Generate-toString----
+
+    /// /-------Metoda toString-----Menu-Code-Generate-toString----
 //    String firstName = "Adam";
 //
 //    String lastName = "Smith";
@@ -51,3 +52,34 @@ public class Person {
 //        System.out.println("Age: " + age);
 //    }
 }
+
+/// /----------
+//Person(String fName, String lName, int a) {
+//    firstName = fName;
+//    lastName = lName;
+//    age = a;
+//}
+//
+//Person(String fName) {
+//    firstName = fName;
+//    lastName = "Unknown";
+//    age = 0;
+//}
+//
+//Person() {
+//
+//}
+//
+//@Override
+//public String toString() {
+//    return "Person{" +
+//            "firstName='" + firstName + '\'' +
+//            ", lastName='" + lastName + '\'' +
+//            ", age=" + age +
+//            '}';
+//}
+//
+//String getFullName() {
+//    return firstName + " " + lastName;
+//}
+//}

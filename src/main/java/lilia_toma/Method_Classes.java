@@ -259,14 +259,115 @@ public class Method_Classes {
      * ex.2 Defineste o clasa numita Student cu variabile de instanta cum
      * ar fi nume, varsta, nota si studentID.
      */
+//    public static void main(String[] args) {
+//        Student student = new Student();
+//        student.printInfo();
+//    }
+//}
+
+//--------------constructori full name
+//    public static void main(String[] args) {
+//        Person2 person = new Person2("Denis", "Grimaliuc", 30);
+//        String fullName = person.getfullName();
+//
+//        System.out.println("Full name is: " + fullName);
+//    }
+//}  -----????
+//    public static void main(String[] args) {
+//        Engine engine = new Engine();
+//        engine.start();
+//        engine.accelerate();
+//        engine.accelerate();
+//        engine.accelerate();
+//        engine.accelerate();
+//        engine.accelerate();
+//        engine.accelerate();
+//        engine.accelerate();
+//
+//        engine.stop();
+//    }
+//}
+
+    /**
+     * Creeaza o clasa numita Fruit....
+     */
+//    public static void main(String[] args) {
+//        Fruit apple = new Fruit("Apple", "Red", 95);
+//        Fruit banana = new Fruit("Banana", "Yellow", 105);
+//        Fruit orange = new Fruit("Orange", "Orange", 62);
+//
+//        apple.printInfo();
+//        banana.printInfo();
+//        orange.printInfo();
+//
+//    }
+//}
+
+    /**
+     * Creeaza o clasa numita Animals.....
+     */
+//    public static void main(String[] args) {
+//        Animal dog = new Animal("Gavrik", "Dog", 4, "Bark");
+//        Animal cat = new Animal("Murka", "Cat", 4, "Meow");
+//        Animal bird = new Animal("Kesha", "Bird", 2, "Tweet");
+//
+//        dog.makeSound();
+//        cat.makeSound();
+//        bird.makeSound();
+//    }
+//}
+    /**Creeaza o clasa bank cu variabile.....*/
+//    public static void main(String[] args) {
+//        Bank bank = new Bank();
+//
+//        bank.addFunds(1000);
+//        bank.printBalance();
+//        bank.addFunds(500);
+//        bank.printBalance();
+//        bank.withdraw(300);
+//        bank.printBalance();
+//    }
+//}
+
+    /**
+     * Creeaza o clasa MusicPlayer cu variabile precum.....
+     */
+//    public static void main(String[] args) {
+//        MusicPlayer player = new MusicPlayer();
+//        player.playSong("Song 1");
+//        player.playSong("Song 2");
+//
+//        player.addVolume();
+//        player.addVolume();
+//        player.addVolume();
+//
+//        player.playSong("Song 3");
+//
+//        player.reduceVolum();
+//        player.reduceVolum();
+//    }
+//}
+
+    /**
+     * Creaza o clasa ShoppingCard......
+     */
+//    public static void main(String[] args) {
+//        ShoppingCard card = new ShoppingCard();
+//        card.addToCard("Apple", 1.0);
+//        card.addToCard("Banana", 0.5);
+//        card.addToCard("Orange", 0.75);
+//        card.addToCard("Milk", 1.25);
+//
+//        card.buyAll();
+//    }
+//}
+    //-----practica Encapsulation------
     public static void main(String[] args) {
-        Student student = new Student();
-        student.printInfo();
+        Bank bank = new Bank();
+        bank.setBalance(100.1);
+        System.out.println(bank.getBalance());
     }
 }
-
-
-
 
 
 
