@@ -5,7 +5,7 @@ package main.java.lilia_toma;
  * Includeti metode getter si setter corespunzatoare pentru fiecare variabila.
  */
 public class Employee {
-    private double id;
+    private int id;
     private String name;
     private double salary;
 
@@ -17,11 +17,11 @@ public class Employee {
         this.salary = salary;
     }
 
-    public double getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(double id) {
+    public void setId(int id) {
         this.id = id;
     }
 
