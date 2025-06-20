@@ -8,7 +8,7 @@ public class FullTimeEmployee extends abstractEmployee {
 
     @Override
     public double calculateSalary() {
-        final double v = salaryPerHour * 8;
+        final double v = 30 * salaryPerHour * 8;
         return v;
     }
 }
