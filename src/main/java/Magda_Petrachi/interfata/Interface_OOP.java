@@ -12,5 +12,12 @@ public class Interface_OOP {
         for (Printable item : items) {
             item.print();
         }
+        
+        abstractEmployee Employee1 = new PartTimeEmployee(10);
+        abstractEmployee Employee2 = new FullTimeEmployee(20);
+        
+        System.out.println("Salariu part time este " + Employee1.calculateSalary());
+        System.out.println("Salariu full time este " + Employee2.calculateSalary());
+
     }
 }
