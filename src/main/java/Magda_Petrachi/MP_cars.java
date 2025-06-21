@@ -1,6 +1,6 @@
 package main.java.Magda_Petrachi;
 
-public class MP_car {
+public class MP_cars {
     private String model;
     private String marca;
     private int anProd;
