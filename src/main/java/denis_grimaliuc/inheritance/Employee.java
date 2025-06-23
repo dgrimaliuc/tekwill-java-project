@@ -1,15 +1,18 @@
-package main.java.denis_grimaliuc;
+package main.java.denis_grimaliuc.inheritance;
 
 
-/**
- * Creați o clasă numită „Employee” cu variabile de instanță private pentru ID-ul angajatului, nume și salariu.
- * Includeți metode getter și setter corespunzătoare pentru fiecare variabilă.
- */
 public class Employee {
+
     private double id;
     private String name;
 
     private double salary;
+
+    Employee(double id, String name, double salary) {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+    }
 
     public double getSalary() {
         return salary;

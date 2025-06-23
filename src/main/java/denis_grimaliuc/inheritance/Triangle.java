@@ -1,6 +1,8 @@
 package main.java.denis_grimaliuc.inheritance;
 
-public class Triangle extends Shape {
+import main.java.denis_grimaliuc.interfaces.IShape;
+
+public class Triangle implements IShape {
     double base;
     double height;
 

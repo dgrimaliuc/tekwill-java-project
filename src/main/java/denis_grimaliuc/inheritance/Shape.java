@@ -6,9 +6,6 @@ package main.java.denis_grimaliuc.inheritance;
  * de bază și subclase precum “Circle”, “Square” și “Triangle”.
  * Include o metodă numită “calculateArea” în fiecare subclasă care calculează aria formei respective.
  */
-public class Shape {
-    public double calculateArea() {
-        // Metoda de bază returnează 0, deoarece nu este implementată în clasa de bază
-        return 0;
-    }
+public abstract class Shape {
+    public abstract double calculateArea();
 }
