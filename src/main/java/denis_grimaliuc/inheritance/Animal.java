@@ -7,7 +7,9 @@ package main.java.denis_grimaliuc.inheritance;
  * variabile de instanță suplimentare,
  * cum ar fi rasa și greutatea.
  */
-public class Animal {
+
+
+public abstract class Animal {
 
 
     public String name;
@@ -28,7 +30,5 @@ public class Animal {
      * Implementează subclase precum “Dog”, “Cat”
      * care suprascriu metoda “makeSound” pentru a produce sunete diferite.
      */
-    public void makeSound() {
-        System.out.println("The animal makes a sound.");
-    }
+    public abstract void makeSound();
 }

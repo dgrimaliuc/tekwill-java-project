@@ -24,6 +24,17 @@ public class Car extends Vehicle {
 
     }
 
+
+    @Override
+    public void startEngine() {
+        System.out.println("The car's engine starts with a vroom-vroom sound.");
+    }
+
+    @Override
+    public void stopEngine() {
+        System.out.println("The car's engine stops with a gentle purr.");
+    }
+
     @Override
     public String toString() {
         return "Car {" +
