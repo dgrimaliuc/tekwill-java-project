@@ -1,6 +1,8 @@
 package main.java.denis_grimaliuc.inheritance;
 
-public class Square extends Shape {
+import main.java.denis_grimaliuc.interfaces.IShape;
+
+public class Square implements IShape {
     double side;
 
     public Square(double sideLength) {

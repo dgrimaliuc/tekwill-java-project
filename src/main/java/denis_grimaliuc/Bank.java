@@ -9,7 +9,7 @@ package main.java.denis_grimaliuc;
  * •	printBalance() ar trebui să afișeze balance-ul curent
  */
 public class Bank {
-    double balance;
+    private double balance;
 
     Bank() {
         this.balance = 0.0;

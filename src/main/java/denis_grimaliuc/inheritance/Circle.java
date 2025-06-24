@@ -1,6 +1,8 @@
 package main.java.denis_grimaliuc.inheritance;
 
-public class Circle extends Shape {
+import main.java.denis_grimaliuc.interfaces.IShape;
+
+public class Circle implements IShape {
     double radius;
 
     public Circle(double radius) {
