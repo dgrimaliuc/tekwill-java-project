@@ -1,6 +1,10 @@
 package main.java.alexandru_todos;
 
 
+import main.java.alexandru_todos.inheritance_and_polymorphism.*;
+import main.java.alexandru_todos.inheritance_and_polymorphism.Car;
+import main.java.alexandru_todos.inheritance_and_polymorphism.Employee;
+
 public class OOP {
 
     // Methods
@@ -66,5 +70,23 @@ public class OOP {
         animal.getInfo();
         animal1.getInfo();
         animal2.getInfo();
+        System.out.println("Inheritance homework:");
+        Employee employee1 = new Employee("John", 27, "Random street 1", 1337, 2000);
+        System.out.println("Our new employee is: " + employee1.name + ", age: " + employee1.age + ". His ID is " +
+                employee1.ID + ".");
+        System.out.println("Override:");
+        Vehicle myVehicle = new Vehicle();
+        Vehicle myCar = new Car();
+        Vehicle myMotorcycle = new Motorcycle();
+        Vehicle myTruck = new Truck();
+        myVehicle.startEngine();
+        myCar.startEngine();
+        myMotorcycle.startEngine();
+        myTruck.startEngine();
+        System.out.println("Overload:");
+        Display display = new Display();
+        System.out.println(display.show(5));
+        System.out.println(display.show(1.3));
+        System.out.println(display.show("Demonstrate display class overload"));
     }
 }
